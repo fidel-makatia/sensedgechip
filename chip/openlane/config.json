@@ -1,0 +1,56 @@
+{
+    "meta": {
+        "version": 2,
+        "flow": "Classic"
+    },
+    "DESIGN_NAME": "senseedge_top",
+    "VERILOG_FILES": [
+        "dir::rtl/defines.v",
+        "dir::rtl/alarm_logic.v",
+        "dir::rtl/feature_extract.v",
+        "dir::rtl/fft_engine.v",
+        "dir::rtl/nn_engine.v",
+        "dir::rtl/spi_adc_if.v",
+        "dir::rtl/wb_interface.v",
+        "dir::rtl/senseedge_top.v"
+    ],
+    "PDK": "gf180mcuD",
+    "STD_CELL_LIBRARY": "gf180mcu_fd_sc_mcu9t5v0",
+
+    "CLOCK_PORT": "wb_clk_i",
+    "CLOCK_NET": "wb_clk_i",
+    "CLOCK_PERIOD": 250.0,
+
+    "FP_SIZING": "absolute",
+    "DIE_AREA": [0, 0, 3000, 3000],
+    "FP_CORE_UTIL": 25,
+    "PL_TARGET_DENSITY": 0.35,
+
+    "CTS_CLK_BUFFERS": [
+        "gf180mcu_fd_sc_mcu9t5v0__clkbuf_16",
+        "gf180mcu_fd_sc_mcu9t5v0__clkbuf_20"
+    ],
+    "CTS_ROOT_BUFFER": "gf180mcu_fd_sc_mcu9t5v0__clkbuf_20",
+
+    "RT_MAX_LAYER": "Metal4",
+
+    "GRT_ALLOW_CONGESTION": true,
+    "GRT_OVERFLOW_ITERS": 100,
+    "DRT_OPT_ITERS": 64,
+
+    "RUN_HEURISTIC_DIODE_INSERTION": false,
+    "GRT_REPAIR_ANTENNAS": false,
+    "DRT_ANTENNA_REPAIR_ITERS": 0,
+    "RUN_ANTENNA_REPAIR": false,
+
+    "RUN_POST_GPL_DESIGN_REPAIR": true,
+    "RUN_POST_GRT_DESIGN_REPAIR": true,
+
+    "RUN_KLAYOUT_DRC": true,
+    "RUN_KLAYOUT_XOR": false,
+
+    "ERROR_ON_LONG_WIRE": false,
+    "ERROR_ON_MAGIC_DRC": false,
+    "ERROR_ON_KLAYOUT_DRC": false,
+    "ERROR_ON_LVS_ERROR": false
+}

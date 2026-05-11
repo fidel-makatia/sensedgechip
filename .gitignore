@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# ngspice / Verilog sim output
+*.raw
+*.log
+*.vcd
+*.fst
+
+# OpenLane / LibreLane build
+runs/
+build/
+
+# Editor
+*.swp
+.vscode/
+.idea/
+.DS_Store
+
+# Large extracted files we re-generate locally
+**/spef/*.spef
+**/def/*.def
+ml/dataset.npz
+
+# Local notes
+*.local.md

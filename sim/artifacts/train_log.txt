@@ -1,0 +1,20 @@
+epoch   25  loss=0.5335  val_acc=0.7870
+epoch   50  loss=0.3162  val_acc=0.8565
+epoch   75  loss=0.2563  val_acc=0.8865
+epoch  100  loss=0.2281  val_acc=0.8985
+epoch  125  loss=0.2085  val_acc=0.9115
+epoch  150  loss=0.1937  val_acc=0.9175
+epoch  175  loss=0.1825  val_acc=0.9230
+epoch  200  loss=0.1740  val_acc=0.9305
+epoch  225  loss=0.1676  val_acc=0.9325
+epoch  250  loss=0.1628  val_acc=0.9350
+epoch  275  loss=0.1590  val_acc=0.9360
+epoch  300  loss=0.1560  val_acc=0.9370
+
+INT8 quantised val accuracy: 0.9240
+
+Per-class accuracy (INT8):
+  0 Healthy          acc=0.9940  (n=500)
+  1 Bearing wear     acc=0.9680  (n=500)
+  2 Imbalance        acc=0.9720  (n=500)
+  3 Misalignment     acc=0.7620  (n=500)
