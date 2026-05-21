@@ -1,0 +1,1524 @@
+* SPICE3 file created from afe_top.ext - technology: gf180mcuD
+
+.option scale=5n
+
+X0 sh_final_0/c_samp_0/m4_n3120_n3000# sh_final_0/c_samp_0/m4_n3240_n3120# cap_mim_2f0_m4m5_noshield c_width=6000 c_length=6000
+X1 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_4348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_4256# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_4348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X2 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.352u ps=8.176m w=4000 l=400
+X3 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n4116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n4208# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n4116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X4 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n8348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n8440# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n8348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X5 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_24# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_116# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.208u ps=4.104m w=4000 l=400
+X6 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_4348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_4256# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_4348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X7 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X8 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_4348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_4256# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_4348# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.208u ps=4.104m w=4000 l=400
+X9 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n4116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n4208# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_n4116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.352u ps=8.176m w=4000 l=400
+X10 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n8348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n8440# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_n8348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.352u ps=8.176m w=4000 l=400
+X11 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_n4116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n4208# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n4116# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.208u ps=4.104m w=4000 l=400
+X12 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_n8348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n8440# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n8348# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.208u ps=4.104m w=4000 l=400
+X13 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n4116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n4208# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n4116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X14 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n8348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n8440# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n8348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X15 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_4348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_4256# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_4348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.352u ps=8.176m w=4000 l=400
+X16 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X17 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_24# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n644_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.416u pd=8.104m as=0.704u ps=0.01618 w=8000 l=200
+X18 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_8256# sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.416u pd=8.104m as=0.416u ps=8.104m w=8000 l=200
+X19 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_n8116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n8208# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_n8116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.416u pd=8.104m as=0.416u ps=8.104m w=8000 l=200
+X20 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_8256# sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.416u pd=8.104m as=0.416u ps=8.104m w=8000 l=200
+X21 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_24# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.416u pd=8.104m as=0.416u ps=8.104m w=8000 l=200
+X22 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.416u pd=8.104m as=0.416u ps=8.104m w=8000 l=200
+X23 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n16440# sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.704u pd=0.01618 as=0.416u ps=8.104m w=8000 l=200
+X24 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_8256# sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.416u pd=8.104m as=0.704u ps=0.01618 w=8000 l=200
+X25 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_n8116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n8208# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_n8116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.416u pd=8.104m as=0.416u ps=8.104m w=8000 l=200
+X26 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n16440# sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.416u pd=8.104m as=0.416u ps=8.104m w=8000 l=200
+X27 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_556_n8116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n8208# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_n8116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.704u pd=0.01618 as=0.416u ps=8.104m w=8000 l=200
+X28 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_n8116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n8208# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n644_n8116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.416u pd=8.104m as=0.704u ps=0.01618 w=8000 l=200
+X29 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n16440# sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.416u pd=8.104m as=0.704u ps=0.01618 w=8000 l=200
+X30 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_8256# sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.704u pd=0.01618 as=0.416u ps=8.104m w=8000 l=200
+X31 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_556_116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_24# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.704u pd=0.01618 as=0.416u ps=8.104m w=8000 l=200
+X32 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n16440# sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.416u pd=8.104m as=0.416u ps=8.104m w=8000 l=200
+X33 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_2348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_2256# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_2348# VSUBS nfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X34 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_116# VSUBS nfet_05v0 ad=0.104u pd=2.104m as=0.176u ps=4.176m w=2000 l=400
+X35 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_24# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_116# VSUBS nfet_05v0 ad=0.176u pd=4.176m as=0.104u ps=2.104m w=2000 l=400
+X36 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n2116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n2208# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n2116# VSUBS nfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X37 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n4348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n4440# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n4348# VSUBS nfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X38 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_116# VSUBS nfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X39 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_2348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_2256# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_2348# VSUBS nfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X40 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_2348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_2256# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_2348# VSUBS nfet_05v0 ad=0.176u pd=4.176m as=0.104u ps=2.104m w=2000 l=400
+X41 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n2116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n2208# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_n2116# VSUBS nfet_05v0 ad=0.104u pd=2.104m as=0.176u ps=4.176m w=2000 l=400
+X42 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_n2116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n2208# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n2116# VSUBS nfet_05v0 ad=0.176u pd=4.176m as=0.104u ps=2.104m w=2000 l=400
+X43 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n4348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n4440# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_n4348# VSUBS nfet_05v0 ad=0.104u pd=2.104m as=0.176u ps=4.176m w=2000 l=400
+X44 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n2116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n2208# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n2116# VSUBS nfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X45 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_2348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_2256# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_2348# VSUBS nfet_05v0 ad=0.104u pd=2.104m as=0.176u ps=4.176m w=2000 l=400
+X46 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_116# VSUBS nfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X47 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n4348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n4440# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n4348# VSUBS nfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X48 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_n4348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n4440# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n4348# VSUBS nfet_05v0 ad=0.176u pd=4.176m as=0.104u ps=2.104m w=2000 l=400
+X49 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.176u ps=4.176m w=2000 l=400
+X50 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_2348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_2256# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_2348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X51 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_24# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.176u pd=4.176m as=0.104u ps=2.104m w=2000 l=400
+X52 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n2116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n2208# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n2116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X53 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n4348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n4440# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n4348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X54 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X55 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_2348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_2256# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_2348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X56 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_2348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_2256# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_2348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.176u pd=4.176m as=0.104u ps=2.104m w=2000 l=400
+X57 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n2116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n2208# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_n2116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.176u ps=4.176m w=2000 l=400
+X58 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_n2116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n2208# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n2116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.176u pd=4.176m as=0.104u ps=2.104m w=2000 l=400
+X59 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n4348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n4440# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_n4348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.176u ps=4.176m w=2000 l=400
+X60 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n2116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n2208# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n2116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X61 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_2348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_2256# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_2348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.176u ps=4.176m w=2000 l=400
+X62 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X63 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n4348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n4440# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n4348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X64 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_n4348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n4440# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n4348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.176u pd=4.176m as=0.104u ps=2.104m w=2000 l=400
+X65 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.176u ps=4.176m w=2000 l=400
+X66 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_2348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_2256# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_2348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X67 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_24# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.176u pd=4.176m as=0.104u ps=2.104m w=2000 l=400
+X68 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n2116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n2208# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n2116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X69 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n4348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n4440# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n4348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X70 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X71 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_2348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_2256# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_2348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X72 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_2348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_2256# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_2348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.176u pd=4.176m as=0.104u ps=2.104m w=2000 l=400
+X73 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n2116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n2208# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_n2116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.176u ps=4.176m w=2000 l=400
+X74 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_n2116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n2208# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n2116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.176u pd=4.176m as=0.104u ps=2.104m w=2000 l=400
+X75 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n4348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n4440# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_n4348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.176u ps=4.176m w=2000 l=400
+X76 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n2116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n2208# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n2116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X77 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_2348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_2256# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_2348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.176u ps=4.176m w=2000 l=400
+X78 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X79 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n4348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n4440# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n4348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.104u pd=2.104m as=0.104u ps=2.104m w=2000 l=400
+X80 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_n4348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n4440# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n4348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# pfet_05v0 ad=0.176u pd=4.176m as=0.104u ps=2.104m w=2000 l=400
+X81 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_4348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_4256# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_4348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X82 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.352u ps=8.176m w=4000 l=400
+X83 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n4116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n4208# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n4116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X84 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n8348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n8440# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n8348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X85 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_116# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.208u ps=4.104m w=4000 l=400
+X86 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_4348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_4256# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_4348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X87 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X88 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_4348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_4256# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_4348# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.208u ps=4.104m w=4000 l=400
+X89 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n4116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n4208# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_n4116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.352u ps=8.176m w=4000 l=400
+X90 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n8348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n8440# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_n8348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.352u ps=8.176m w=4000 l=400
+X91 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_n4116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n4208# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n4116# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.208u ps=4.104m w=4000 l=400
+X92 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_n8348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n8440# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n8348# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.208u ps=4.104m w=4000 l=400
+X93 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n4116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n4208# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n4116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X94 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n8348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n8440# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n8348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X95 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_4348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_4256# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_4348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.352u ps=8.176m w=4000 l=400
+X96 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X97 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_4348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_4256# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_4348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X98 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.352u ps=8.176m w=4000 l=400
+X99 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n4116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n4208# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n4116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X100 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n8348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n8440# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n8348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X101 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_24# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_116# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.208u ps=4.104m w=4000 l=400
+X102 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_4348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_4256# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_4348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X103 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X104 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_4348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_4256# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_4348# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.208u ps=4.104m w=4000 l=400
+X105 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n4116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n4208# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_n4116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.352u ps=8.176m w=4000 l=400
+X106 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n8348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n8440# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_n8348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.352u ps=8.176m w=4000 l=400
+X107 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_n4116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n4208# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n4116# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.208u ps=4.104m w=4000 l=400
+X108 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_n8348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n8440# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n8348# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.208u ps=4.104m w=4000 l=400
+X109 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n4116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n4208# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n4116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X110 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n8348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n8440# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n8348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X111 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_4348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_4256# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_4348# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.352u ps=8.176m w=4000 l=400
+X112 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_116# VSUBS nfet_05v0 ad=0.208u pd=4.104m as=0.208u ps=4.104m w=4000 l=400
+X113 sh_final_0/sw_nmos_0/a_100_n400# sh_final_0/sw_nmos_0/a_n100_n492# sh_final_0/sw_nmos_0/a_n188_n400# VSUBS nfet_05v0 ad=70.4n pd=1.776m as=70.4n ps=1.776m w=800 l=200
+X114 sh_final_0/sw_nmos_1/a_100_n400# sh_final_0/sw_nmos_1/a_n100_n492# sh_final_0/sw_nmos_1/a_n188_n400# VSUBS nfet_05v0 ad=70.4n pd=1.776m as=70.4n ps=1.776m w=800 l=200
+X115 bias_final_0/bias_nmos_0/a_452_116# bias_final_0/bias_nmos_0/a_52_24# bias_final_0/bias_nmos_0/a_n52_116# VSUBS nfet_05v0 ad=0.1408u pd=3.376m as=83.2n ps=1.704m w=1600 l=400
+X116 bias_final_0/bias_nmos_0/a_n52_n1716# bias_final_0/bias_nmos_0/a_n452_n1808# bias_final_0/bias_nmos_0/a_n540_n1716# VSUBS nfet_05v0 ad=83.2n pd=1.704m as=0.1408u ps=3.376m w=1600 l=400
+X117 bias_final_0/bias_nmos_0/a_n52_116# bias_final_0/bias_nmos_0/a_n452_24# bias_final_0/bias_nmos_0/a_n540_116# VSUBS nfet_05v0 ad=83.2n pd=1.704m as=0.1408u ps=3.376m w=1600 l=400
+X118 bias_final_0/bias_nmos_0/a_452_n1716# bias_final_0/bias_nmos_0/a_52_n1808# bias_final_0/bias_nmos_0/a_n52_n1716# VSUBS nfet_05v0 ad=0.1408u pd=3.376m as=83.2n ps=1.704m w=1600 l=400
+X119 bias_final_0/bias_nmos_1/a_452_116# bias_final_0/bias_nmos_1/a_52_24# bias_final_0/bias_nmos_1/a_n52_116# VSUBS nfet_05v0 ad=0.1408u pd=3.376m as=0.1664u ps=3.408m w=1600 l=400
+X120 bias_final_0/bias_nmos_1/a_n52_n1716# bias_final_0/bias_nmos_1/a_n452_n1808# bias_final_0/bias_nmos_1/a_n540_n1716# VSUBS nfet_05v0 ad=0.1664u pd=3.408m as=0.1408u ps=3.376m w=1600 l=400
+X121 bias_final_0/bias_nmos_1/a_n52_116# bias_final_0/bias_nmos_1/a_n452_24# bias_final_0/bias_nmos_1/a_n540_116# VSUBS nfet_05v0 ad=0 pd=0 as=0.1408u ps=3.376m w=1600 l=400
+X122 bias_final_0/bias_nmos_1/a_452_n1716# bias_final_0/bias_nmos_1/a_52_n1808# bias_final_0/bias_nmos_1/a_n52_n1716# VSUBS nfet_05v0 ad=0.1408u pd=3.376m as=0 ps=0 w=1600 l=400
+X123 pga_final_0/r_in_0/a_n200_800# pga_final_0/r_in_0/a_n200_n902# VSUBS npolyf_u r_width=400 r_length=1600
+X124 pga_final_0/r_fb_0/a_n200_8000# pga_final_0/r_fb_0/a_n200_n8102# VSUBS npolyf_u r_width=400 r_length=16000
+X125 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_4348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_4256# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_4348# VSUBS nfet_05v0 ad=0.416u pd=8.208m as=0.416u ps=8.208m w=4000 l=400
+X126 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_116# VSUBS nfet_05v0 ad=0.416u pd=8.208m as=0.352u ps=8.176m w=4000 l=400
+X127 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n4116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n4208# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n4116# VSUBS nfet_05v0 ad=0.416u pd=8.208m as=0.416u ps=8.208m w=4000 l=400
+X128 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n8348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n8440# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n8348# VSUBS nfet_05v0 ad=0.416u pd=8.208m as=0.416u ps=8.208m w=4000 l=400
+X129 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_116# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.416u ps=8.208m w=4000 l=400
+X130 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_4348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_4256# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_4348# VSUBS nfet_05v0 ad=0.416u pd=8.208m as=0 ps=0 w=4000 l=400
+X131 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_24# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_116# VSUBS nfet_05v0 ad=0 pd=0 as=0.416u ps=8.208m w=4000 l=400
+X132 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_4348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_4256# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_4348# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0 ps=0 w=4000 l=400
+X133 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n4116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n4208# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_n4116# VSUBS nfet_05v0 ad=0 pd=0 as=0.352u ps=8.176m w=4000 l=400
+X134 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n8348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n8440# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_n8348# VSUBS nfet_05v0 ad=0 pd=0 as=0.352u ps=8.176m w=4000 l=400
+X135 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_n4116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n4208# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n4116# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.416u ps=8.208m w=4000 l=400
+X136 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_n8348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n8440# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n8348# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.416u ps=8.208m w=4000 l=400
+X137 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n4116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n4208# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n4116# VSUBS nfet_05v0 ad=0 pd=0 as=0 ps=0 w=4000 l=400
+X138 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n8348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n8440# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n8348# VSUBS nfet_05v0 ad=0 pd=0 as=0 ps=0 w=4000 l=400
+X139 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_4348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_4256# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_4348# VSUBS nfet_05v0 ad=0 pd=0 as=0.352u ps=8.176m w=4000 l=400
+X140 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_116# VSUBS nfet_05v0 ad=0 pd=0 as=0 ps=0 w=4000 l=400
+X141 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_24# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n644_116# VSUBS pfet_05v0 ad=0.832u pd=0.01621 as=0.704u ps=0.01618 w=8000 l=200
+X142 VSUBS pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_8256# VSUBS VSUBS pfet_05v0 ad=29.40448u pd=0.76683 as=0 ps=0 w=8000 l=200
+X143 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_n8116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n8208# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_n8116# VSUBS pfet_05v0 ad=0.832u pd=0.01621 as=0.832u ps=0.01621 w=8000 l=200
+X144 VSUBS pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_8256# VSUBS VSUBS pfet_05v0 ad=0 pd=0 as=0 ps=0 w=8000 l=200
+X145 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_24# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_116# VSUBS pfet_05v0 ad=0.832u pd=0.01621 as=0 ps=0 w=8000 l=200
+X146 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_24# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_116# VSUBS pfet_05v0 ad=0.832u pd=0.01621 as=0 ps=0 w=8000 l=200
+X147 VSUBS pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n16440# VSUBS VSUBS pfet_05v0 ad=0 pd=0 as=0 ps=0 w=8000 l=200
+X148 VSUBS pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_8256# VSUBS VSUBS pfet_05v0 ad=0 pd=0 as=0 ps=0 w=8000 l=200
+X149 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_n8116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n8208# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_n8116# VSUBS pfet_05v0 ad=0.832u pd=0.01621 as=0 ps=0 w=8000 l=200
+X150 VSUBS pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n16440# VSUBS VSUBS pfet_05v0 ad=0 pd=0 as=0 ps=0 w=8000 l=200
+X151 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_556_n8116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n8208# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_n8116# VSUBS pfet_05v0 ad=0.704u pd=0.01618 as=0 ps=0 w=8000 l=200
+X152 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_n8116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n8208# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n644_n8116# VSUBS pfet_05v0 ad=0 pd=0 as=0.704u ps=0.01618 w=8000 l=200
+X153 VSUBS pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n16440# VSUBS VSUBS pfet_05v0 ad=0 pd=0 as=0 ps=0 w=8000 l=200
+X154 VSUBS pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_8256# VSUBS VSUBS pfet_05v0 ad=0 pd=0 as=0 ps=0 w=8000 l=200
+X155 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_556_116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_24# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_116# VSUBS pfet_05v0 ad=0.704u pd=0.01618 as=0 ps=0 w=8000 l=200
+X156 VSUBS pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n16440# VSUBS VSUBS pfet_05v0 ad=0 pd=0 as=0 ps=0 w=8000 l=200
+X157 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_2348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_2256# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_2348# VSUBS nfet_05v0 ad=0.208u pd=4.208m as=0.208u ps=4.208m w=2000 l=400
+X158 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_116# VSUBS nfet_05v0 ad=0.208u pd=4.208m as=0.176u ps=4.176m w=2000 l=400
+X159 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_116# VSUBS nfet_05v0 ad=0.176u pd=4.176m as=0.208u ps=4.208m w=2000 l=400
+X160 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n2116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n2208# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n2116# VSUBS nfet_05v0 ad=0.208u pd=4.208m as=0.208u ps=4.208m w=2000 l=400
+X161 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n4348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n4440# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n4348# VSUBS nfet_05v0 ad=0.208u pd=4.208m as=0.208u ps=4.208m w=2000 l=400
+X162 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_24# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_116# VSUBS nfet_05v0 ad=0 pd=0 as=0.208u ps=4.208m w=2000 l=400
+X163 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_2348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_2256# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_2348# VSUBS nfet_05v0 ad=0.208u pd=4.208m as=0 ps=0 w=2000 l=400
+X164 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_2348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_2256# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_2348# VSUBS nfet_05v0 ad=0.176u pd=4.176m as=0 ps=0 w=2000 l=400
+X165 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n2116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n2208# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_n2116# VSUBS nfet_05v0 ad=0 pd=0 as=0.176u ps=4.176m w=2000 l=400
+X166 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_n2116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n2208# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n2116# VSUBS nfet_05v0 ad=0.176u pd=4.176m as=0.208u ps=4.208m w=2000 l=400
+X167 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n4348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n4440# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_n4348# VSUBS nfet_05v0 ad=0 pd=0 as=0.176u ps=4.176m w=2000 l=400
+X168 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n2116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n2208# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n2116# VSUBS nfet_05v0 ad=0 pd=0 as=0 ps=0 w=2000 l=400
+X169 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_2348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_2256# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_2348# VSUBS nfet_05v0 ad=0 pd=0 as=0.176u ps=4.176m w=2000 l=400
+X170 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_116# VSUBS nfet_05v0 ad=0 pd=0 as=0 ps=0 w=2000 l=400
+X171 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n4348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n4440# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n4348# VSUBS nfet_05v0 ad=0.208u pd=4.208m as=0 ps=0 w=2000 l=400
+X172 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_n4348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n4440# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n4348# VSUBS nfet_05v0 ad=0.176u pd=4.176m as=0 ps=0 w=2000 l=400
+X173 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_116# VSUBS pfet_05v0 ad=0.208u pd=4.208m as=0.176u ps=4.176m w=2000 l=400
+X174 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_2348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_2256# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_2348# VSUBS pfet_05v0 ad=0.208u pd=4.208m as=0.208u ps=4.208m w=2000 l=400
+X175 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_116# VSUBS pfet_05v0 ad=0.176u pd=4.176m as=0.208u ps=4.208m w=2000 l=400
+X176 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n2116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n2208# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n2116# VSUBS pfet_05v0 ad=0.208u pd=4.208m as=0.208u ps=4.208m w=2000 l=400
+X177 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n4348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n4440# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n4348# VSUBS pfet_05v0 ad=0.208u pd=4.208m as=0.208u ps=4.208m w=2000 l=400
+X178 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_24# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_116# VSUBS pfet_05v0 ad=0 pd=0 as=0.208u ps=4.208m w=2000 l=400
+X179 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_2348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_2256# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_2348# VSUBS pfet_05v0 ad=0.208u pd=4.208m as=0 ps=0 w=2000 l=400
+X180 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_2348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_2256# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_2348# VSUBS pfet_05v0 ad=0.176u pd=4.176m as=0 ps=0 w=2000 l=400
+X181 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n2116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n2208# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_n2116# VSUBS pfet_05v0 ad=0 pd=0 as=0.176u ps=4.176m w=2000 l=400
+X182 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_n2116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n2208# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n2116# VSUBS pfet_05v0 ad=0.176u pd=4.176m as=0.208u ps=4.208m w=2000 l=400
+X183 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n4348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n4440# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_n4348# VSUBS pfet_05v0 ad=0 pd=0 as=0.176u ps=4.176m w=2000 l=400
+X184 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n2116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n2208# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n2116# VSUBS pfet_05v0 ad=0 pd=0 as=0 ps=0 w=2000 l=400
+X185 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_2348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_2256# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_2348# VSUBS pfet_05v0 ad=0 pd=0 as=0.176u ps=4.176m w=2000 l=400
+X186 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_116# VSUBS pfet_05v0 ad=0 pd=0 as=0 ps=0 w=2000 l=400
+X187 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n4348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n4440# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n4348# VSUBS pfet_05v0 ad=0.208u pd=4.208m as=0 ps=0 w=2000 l=400
+X188 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_n4348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n4440# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n4348# VSUBS pfet_05v0 ad=0.176u pd=4.176m as=0 ps=0 w=2000 l=400
+X189 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_116# VSUBS pfet_05v0 ad=0.208u pd=4.208m as=0.176u ps=4.176m w=2000 l=400
+X190 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_2348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_2256# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_2348# VSUBS pfet_05v0 ad=0.208u pd=4.208m as=0.208u ps=4.208m w=2000 l=400
+X191 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_116# VSUBS pfet_05v0 ad=0.176u pd=4.176m as=0.208u ps=4.208m w=2000 l=400
+X192 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n2116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n2116# VSUBS pfet_05v0 ad=0.208u pd=4.208m as=0.208u ps=4.208m w=2000 l=400
+X193 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n4348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n4440# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n4348# VSUBS pfet_05v0 ad=0.208u pd=4.208m as=0.208u ps=4.208m w=2000 l=400
+X194 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_24# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_116# VSUBS pfet_05v0 ad=0 pd=0 as=0.208u ps=4.208m w=2000 l=400
+X195 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_2348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_2256# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_2348# VSUBS pfet_05v0 ad=0.208u pd=4.208m as=0 ps=0 w=2000 l=400
+X196 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_2348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_2256# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_2348# VSUBS pfet_05v0 ad=0.176u pd=4.176m as=0 ps=0 w=2000 l=400
+X197 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n2116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_n2116# VSUBS pfet_05v0 ad=0 pd=0 as=0.176u ps=4.176m w=2000 l=400
+X198 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_n2116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n2116# VSUBS pfet_05v0 ad=0.176u pd=4.176m as=0.208u ps=4.208m w=2000 l=400
+X199 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n4348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n4440# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_n4348# VSUBS pfet_05v0 ad=0 pd=0 as=0.176u ps=4.176m w=2000 l=400
+X200 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n2116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n2116# VSUBS pfet_05v0 ad=0 pd=0 as=0 ps=0 w=2000 l=400
+X201 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_2348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_2256# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_2348# VSUBS pfet_05v0 ad=0 pd=0 as=0.176u ps=4.176m w=2000 l=400
+X202 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_116# VSUBS pfet_05v0 ad=0 pd=0 as=0 ps=0 w=2000 l=400
+X203 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n4348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n4440# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n4348# VSUBS pfet_05v0 ad=0.208u pd=4.208m as=0 ps=0 w=2000 l=400
+X204 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_n4348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n4440# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n4348# VSUBS pfet_05v0 ad=0.176u pd=4.176m as=0 ps=0 w=2000 l=400
+X205 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_4348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_4256# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_4348# VSUBS nfet_05v0 ad=0.416u pd=8.208m as=0.416u ps=8.208m w=4000 l=400
+X206 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_116# VSUBS nfet_05v0 ad=0.416u pd=8.208m as=0.352u ps=8.176m w=4000 l=400
+X207 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n4116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n4208# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n4116# VSUBS nfet_05v0 ad=0.416u pd=8.208m as=0.416u ps=8.208m w=4000 l=400
+X208 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n8348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n8440# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n8348# VSUBS nfet_05v0 ad=0.416u pd=8.208m as=0.416u ps=8.208m w=4000 l=400
+X209 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_116# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.416u ps=8.208m w=4000 l=400
+X210 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_4348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_4256# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_4348# VSUBS nfet_05v0 ad=0.416u pd=8.208m as=0 ps=0 w=4000 l=400
+X211 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_24# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_116# VSUBS nfet_05v0 ad=0 pd=0 as=0.416u ps=8.208m w=4000 l=400
+X212 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_4348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_4256# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_4348# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0 ps=0 w=4000 l=400
+X213 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n4116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n4208# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_n4116# VSUBS nfet_05v0 ad=0 pd=0 as=0.352u ps=8.176m w=4000 l=400
+X214 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n8348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n8440# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_n8348# VSUBS nfet_05v0 ad=0 pd=0 as=0.352u ps=8.176m w=4000 l=400
+X215 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_n4116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n4208# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n4116# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.416u ps=8.208m w=4000 l=400
+X216 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_n8348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n8440# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n8348# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.416u ps=8.208m w=4000 l=400
+X217 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n4116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n4208# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n4116# VSUBS nfet_05v0 ad=0 pd=0 as=0 ps=0 w=4000 l=400
+X218 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n8348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n8440# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n8348# VSUBS nfet_05v0 ad=0 pd=0 as=0 ps=0 w=4000 l=400
+X219 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_4348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_4256# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_4348# VSUBS nfet_05v0 ad=0 pd=0 as=0.352u ps=8.176m w=4000 l=400
+X220 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_116# VSUBS nfet_05v0 ad=0 pd=0 as=0 ps=0 w=4000 l=400
+X221 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_4348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_4256# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_4348# VSUBS nfet_05v0 ad=0.416u pd=8.208m as=0.416u ps=8.208m w=4000 l=400
+X222 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_116# VSUBS nfet_05v0 ad=0.416u pd=8.208m as=0.352u ps=8.176m w=4000 l=400
+X223 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n4116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n4208# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n4116# VSUBS nfet_05v0 ad=0.416u pd=8.208m as=0.416u ps=8.208m w=4000 l=400
+X224 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n8348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n8440# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n8348# VSUBS nfet_05v0 ad=0.416u pd=8.208m as=0.416u ps=8.208m w=4000 l=400
+X225 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_116# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.416u ps=8.208m w=4000 l=400
+X226 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_4348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_4256# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_4348# VSUBS nfet_05v0 ad=0.416u pd=8.208m as=0 ps=0 w=4000 l=400
+X227 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_24# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_116# VSUBS nfet_05v0 ad=0 pd=0 as=0.416u ps=8.208m w=4000 l=400
+X228 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_4348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_4256# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_4348# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0 ps=0 w=4000 l=400
+X229 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n4116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n4208# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_n4116# VSUBS nfet_05v0 ad=0 pd=0 as=0.352u ps=8.176m w=4000 l=400
+X230 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n8348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n8440# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_n8348# VSUBS nfet_05v0 ad=0 pd=0 as=0.352u ps=8.176m w=4000 l=400
+X231 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_n4116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n4208# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n4116# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.416u ps=8.208m w=4000 l=400
+X232 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_n8348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n8440# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n8348# VSUBS nfet_05v0 ad=0.352u pd=8.176m as=0.416u ps=8.208m w=4000 l=400
+X233 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n4116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n4208# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n4116# VSUBS nfet_05v0 ad=0 pd=0 as=0 ps=0 w=4000 l=400
+X234 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n8348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n8440# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n8348# VSUBS nfet_05v0 ad=0 pd=0 as=0 ps=0 w=4000 l=400
+X235 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_4348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_4256# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_4348# VSUBS nfet_05v0 ad=0 pd=0 as=0.352u ps=8.176m w=4000 l=400
+X236 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_116# VSUBS nfet_05v0 ad=0 pd=0 as=0 ps=0 w=4000 l=400
+X237 vref_final_0/r_vref_0/a_n200_1800# vref_final_0/r_vref_0/a_n200_n1902# VSUBS npolyf_u r_width=400 r_length=3600
+X238 vref_final_0/r_vref_1/a_n200_1800# vref_final_0/r_vref_1/a_n200_n1902# VSUBS npolyf_u r_width=400 r_length=3600
+X239 vref_final_0/r_vref_2/a_n200_1800# vref_final_0/r_vref_2/a_n200_n1902# VSUBS npolyf_u r_width=400 r_length=3600
+X240 vref_final_0/vref_nmos_0/a_400_n200# vref_final_0/vref_nmos_0/a_n400_n292# vref_final_0/vref_nmos_0/a_n488_n200# VSUBS nfet_05v0 ad=35.2n pd=0.976m as=35.2n ps=0.976m w=400 l=800
+C0 bias_final_0/bias_nmos_1/a_52_n1808# bias_final_0/bias_nmos_1/a_452_n1716# 0.23658f
+C1 bias_final_0/bias_nmos_1/a_n52_n1716# bias_final_0/bias_nmos_1/a_n540_n1716# 0.15677f
+C2 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n2208# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n4440# 0.37451f
+C3 sh_final_0/sw_nmos_0/a_100_n400# sh_final_0/sw_nmos_0/a_n188_n400# 0.14309f
+C4 bias_final_0/bias_nmos_1/a_52_n1808# bias_final_0/bias_nmos_1/a_n52_n1716# 0.23658f
+C5 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_2348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_2256# 0.29587f
+C6 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_116# 0.39251f
+C7 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n16440# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n8208# 0.18596f
+C8 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.45674f
+C9 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_4256# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_4348# 0.59234f
+C10 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_4348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_4348# 0.39251f
+C11 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_24# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n4208# 0.37451f
+C12 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_116# 0.19606f
+C13 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n2116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n2208# 0.29587f
+C14 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n4116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n4208# 0.59234f
+C15 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_4348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_4348# 0.39251f
+C16 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n4440# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n4348# 0.29587f
+C17 sh_final_0/c_samp_0/m4_n3120_n3000# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 4.48328f
+C18 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_2348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.47456f
+C19 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n4348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n4348# 0.19606f
+C20 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n4348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_n4348# 0.19606f
+C21 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n4348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n4440# 0.29587f
+C22 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n2208# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_24# 0.37451f
+C23 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n8348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n8440# 0.59234f
+C24 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_116# 0.19606f
+C25 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_4256# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_4348# 0.59234f
+C26 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n4208# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_n4116# 0.59234f
+C27 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_116# 0.59234f
+C28 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_116# 0.19606f
+C29 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n8440# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_n8348# 0.59234f
+C30 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n4440# 0.79917f
+C31 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_2256# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_2348# 0.29587f
+C32 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_4256# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_4348# 0.59234f
+C33 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_4256# 0.37451f
+C34 sh_final_0/c_samp_0/m4_n3240_n3120# sh_final_0/c_samp_0/m4_n3120_n3000# 4.0879f
+C35 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_24# 0.37451f
+C36 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n2208# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_24# 0.37451f
+C37 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n4440# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_n4348# 0.29587f
+C38 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_116# 0.29587f
+C39 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n8208# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.25049f
+C40 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n4440# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_n4348# 0.29587f
+C41 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_24# 0.29587f
+C42 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_116# 0.19606f
+C43 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n2208# 0.37451f
+C44 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_n8116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 1.30581f
+C45 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n2208# 0.50926f
+C46 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_24# 0.85436f
+C47 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_24# 0.29587f
+C48 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_n2116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 1.24508f
+C49 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_24# 0.29587f
+C50 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n4440# 0.37451f
+C51 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_n4348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n4348# 0.19606f
+C52 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n2208# 0.37451f
+C53 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_24# 0.29587f
+C54 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n2116# 0.45673f
+C55 bias_final_0/bias_nmos_0/a_n452_n1808# bias_final_0/bias_nmos_0/a_n540_n1716# 0.23658f
+C56 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_24# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_116# 0.59234f
+C57 bias_final_0/bias_nmos_0/a_n452_n1808# bias_final_0/bias_nmos_0/a_n452_24# 0.37451f
+C58 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_4348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_4348# 0.39251f
+C59 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_2348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.47456f
+C60 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_24# 0.29587f
+C61 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_2348# 1.26104f
+C62 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_24# 0.29587f
+C63 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n8348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_n8348# 0.39251f
+C64 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_116# 0.39251f
+C65 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_24# 0.29587f
+C66 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_n4348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n4348# 0.19606f
+C67 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n8348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n8348# 0.39251f
+C68 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n4348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n4348# 0.19606f
+C69 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n8440# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_n8348# 0.59234f
+C70 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n8348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n8348# 0.39251f
+C71 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n4116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n4116# 0.39251f
+C72 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n8440# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n4208# 0.37451f
+C73 bias_final_0/bias_nmos_1/a_n52_116# bias_final_0/bias_nmos_1/a_n540_116# 0.15677f
+C74 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_2256# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.74825f
+C75 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n8348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n8440# 0.59234f
+C76 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n8348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_n8348# 0.39251f
+C77 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n8440# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n8348# 0.59234f
+C78 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n2116# 0.29587f
+C79 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n8440# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n8348# 0.59234f
+C80 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n8348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n8440# 0.59234f
+C81 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n8348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n8440# 0.59234f
+C82 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_116# 0.29587f
+C83 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n8440# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n8348# 0.59234f
+C84 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_4256# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_24# 0.37451f
+C85 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_2256# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.74825f
+C86 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_n4116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n4208# 0.59234f
+C87 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n4440# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_n4348# 0.29587f
+C88 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_116# 0.29587f
+C89 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n8440# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_n8348# 0.59234f
+C90 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_2256# 0.37451f
+C91 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_2256# 0.37451f
+C92 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_n2116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n2208# 0.29587f
+C93 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n8440# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n4208# 0.37451f
+C94 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_2256# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_24# 0.37451f
+C95 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 1.30923f
+C96 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n4116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n4116# 0.39251f
+C97 bias_final_0/bias_nmos_1/a_n452_24# bias_final_0/m2_n100_6000# 0.20206f
+C98 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n644_116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_116# 1.43738f
+C99 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_n4116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n4116# 0.39251f
+C100 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n8440# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n4208# 0.37451f
+C101 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n4208# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n8440# 0.37451f
+C102 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n4116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n4116# 0.39251f
+C103 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_2348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_2348# 0.19606f
+C104 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_2348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 1.26104f
+C105 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n4116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n4116# 0.39251f
+C106 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_2256# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_24# 0.37451f
+C107 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_n4116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n4208# 0.59234f
+C108 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_4348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_4348# 0.39251f
+C109 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n4116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_n4116# 0.39251f
+C110 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_2348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_2348# 0.19606f
+C111 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n4208# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n4116# 0.59234f
+C112 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n4208# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n4116# 0.59234f
+C113 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n4116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n4208# 0.59234f
+C114 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n8208# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.2994f
+C115 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_4348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_4348# 0.39251f
+C116 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_2256# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_2348# 0.29587f
+C117 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_2256# 0.37451f
+C118 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_n4348# 1.26104f
+C119 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n2116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.45674f
+C120 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_24# 0.29968f
+C121 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_24# 0.59234f
+C122 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_2348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_2348# 0.19606f
+C123 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_n2116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n2208# 0.29587f
+C124 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_2256# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_2348# 0.29587f
+C125 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_2348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_2256# 0.29587f
+C126 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_2256# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.79917f
+C127 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n2116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n2116# 0.19606f
+C128 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_2256# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_2348# 0.29587f
+C129 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_2256# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_2348# 0.29587f
+C130 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n4208# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n8440# 0.37451f
+C131 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_2256# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_24# 0.37451f
+C132 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n8348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_n8348# 0.39251f
+C133 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_24# 0.29587f
+C134 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_116# 0.59234f
+C135 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n8440# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n4208# 0.37451f
+C136 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_2348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_2348# 0.19606f
+C137 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_2348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_2256# 0.29587f
+C138 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_4348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_4348# 0.39251f
+C139 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_2256# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.79917f
+C140 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_n2116# 1.24508f
+C141 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n4208# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_n4116# 0.59234f
+C142 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_24# 0.59234f
+C143 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n4208# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n4116# 0.59234f
+C144 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n4348# 0.47455f
+C145 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_4256# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_24# 0.37451f
+C146 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n4208# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n4116# 0.59234f
+C147 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_116# 1.43738f
+C148 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n2116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n2116# 0.19606f
+C149 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_2348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_2256# 0.29587f
+C150 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n4116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n4208# 0.59234f
+C151 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n4208# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_n4116# 0.59234f
+C152 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_24# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_2256# 0.37451f
+C153 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_2256# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_2348# 0.29587f
+C154 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_n2116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 1.24508f
+C155 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_n2116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n2116# 0.19606f
+C156 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n8440# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n8348# 0.59234f
+C157 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n8348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n8440# 0.59234f
+C158 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_24# 0.59234f
+C159 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n4348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n4440# 0.29587f
+C160 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 1.24508f
+C161 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_116# 1.24508f
+C162 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_116# 0.59234f
+C163 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n8208# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_24# 0.18596f
+C164 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n8440# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n4208# 0.37451f
+C165 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_4348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_4256# 0.59234f
+C166 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n4116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n4116# 0.39251f
+C167 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n4116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n4116# 0.39251f
+C168 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_24# 0.85436f
+C169 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_116# 0.19606f
+C170 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_24# 0.59234f
+C171 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_2348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_2348# 0.19606f
+C172 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_116# 0.29587f
+C173 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n4208# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_24# 0.37451f
+C174 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n4440# 0.37451f
+C175 bias_final_0/bias_nmos_0/a_52_n1808# bias_final_0/bias_nmos_0/a_452_n1716# 0.23658f
+C176 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n4208# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n4116# 0.59234f
+C177 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_n8116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_n8116# 1.43738f
+C178 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n8348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_n8348# 0.39251f
+C179 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_2348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_2256# 0.29587f
+C180 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_4348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_4348# 0.39251f
+C181 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n8440# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n8348# 0.59234f
+C182 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_4256# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_4348# 0.59234f
+C183 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_116# 0.39251f
+C184 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n8208# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n16440# 0.18596f
+C185 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n4208# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_24# 0.37451f
+C186 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n4208# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_24# 0.37451f
+C187 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_556_116# 1.43738f
+C188 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_n8116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_556_n8116# 1.43738f
+C189 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_116# 0.29587f
+C190 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_116# 0.19606f
+C191 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n4348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n4348# 0.19606f
+C192 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_4256# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_4348# 0.59234f
+C193 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_2256# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_2348# 0.29587f
+C194 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_116# 0.39251f
+C195 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_4256# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_4348# 0.59234f
+C196 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_24# 0.29587f
+C197 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_2348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_2348# 0.19606f
+C198 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n4208# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_n4116# 0.59234f
+C199 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.25077f
+C200 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n4348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n4348# 0.19606f
+C201 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n16440# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n8208# 0.18596f
+C202 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_556_n8116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_n8116# 1.43738f
+C203 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_24# 0.59234f
+C204 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n4440# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_n4348# 0.29587f
+C205 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_2348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_2256# 0.29587f
+C206 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_2348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_2256# 0.29587f
+C207 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n2208# 0.37451f
+C208 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_116# 0.39251f
+C209 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n8208# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n16440# 0.18596f
+C210 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n2116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n2208# 0.29587f
+C211 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n4440# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.74825f
+C212 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n4208# 0.37451f
+C213 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_116# 0.39251f
+C214 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n2116# 0.29587f
+C215 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_24# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_116# 0.59234f
+C216 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n4208# 0.37451f
+C217 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_n8116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_n8116# 1.43738f
+C218 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_116# 0.59234f
+C219 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n8440# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_n8348# 0.59234f
+C220 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n8208# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n16440# 0.18596f
+C221 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_556_n8116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n8208# 0.85436f
+C222 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_116# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_116# 0.39251f
+C223 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_2256# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_2348# 0.29587f
+C224 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_24# 0.59234f
+C225 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_n8116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_n8116# 1.43738f
+C226 bias_final_0/bias_nmos_0/a_52_24# bias_final_0/bias_nmos_0/a_n52_116# 0.23658f
+C227 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_n2116# 1.24508f
+C228 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_4256# 0.37451f
+C229 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_n8116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n8208# 0.85436f
+C230 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n8208# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n16440# 0.18596f
+C231 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n8208# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_n8116# 0.85436f
+C232 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_n8116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n644_n8116# 1.43738f
+C233 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_116# 0.59234f
+C234 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n8208# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_n8116# 0.85436f
+C235 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_2256# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_2348# 0.29587f
+C236 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_2256# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_2348# 0.29587f
+C237 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n8348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n8440# 0.59234f
+C238 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n8208# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_n8116# 0.85436f
+C239 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n2208# 0.5087f
+C240 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_116# 0.59234f
+C241 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_116# 0.59234f
+C242 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_116# 0.39251f
+C243 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_4256# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_4348# 0.59234f
+C244 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_116# 0.59234f
+C245 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n8208# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_n8116# 0.85436f
+C246 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n4116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n4208# 0.59234f
+C247 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_24# 0.59234f
+C248 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n4348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_n4348# 0.19606f
+C249 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_n4348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n4440# 0.29587f
+C250 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_116# 0.19606f
+C251 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_n8116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n8208# 0.85436f
+C252 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_2348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_2348# 0.19606f
+C253 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n8208# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_n8116# 0.85436f
+C254 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_116# 1.24508f
+C255 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_24# 0.59234f
+C256 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n8208# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n644_n8116# 0.85436f
+C257 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n8348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n8348# 0.39251f
+C258 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_116# 0.29587f
+C259 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_116# 0.59234f
+C260 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_n2116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n2208# 0.29587f
+C261 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_24# 0.29587f
+C262 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n4208# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_24# 0.37451f
+C263 bias_final_0/bias_nmos_1/a_n52_116# bias_final_0/bias_nmos_1/a_452_116# 0.15677f
+C264 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_2256# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_24# 0.37451f
+C265 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_2348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_2256# 0.29587f
+C266 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n8440# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_n8348# 0.59234f
+C267 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_4256# 0.37451f
+C268 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_556_n8116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n8208# 0.85436f
+C269 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n8440# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_n8348# 0.59234f
+C270 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_2348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_2348# 0.19606f
+C271 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n4348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n4348# 0.19606f
+C272 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n8348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n8440# 0.59234f
+C273 sh_final_0/c_samp_0/m4_n3240_n3120# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.93575f
+C274 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_4348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_4348# 0.39251f
+C275 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n4440# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.74825f
+C276 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n4116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n4208# 0.59234f
+C277 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n4348# 0.47456f
+C278 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_4256# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_4348# 0.59234f
+C279 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n4440# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n2208# 0.37451f
+C280 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n4208# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_24# 0.37451f
+C281 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_2256# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_24# 0.37451f
+C282 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_8256# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 2.50241f
+C283 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n2208# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_24# 0.37451f
+C284 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n4440# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n4348# 0.29587f
+C285 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n8348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_n8348# 0.39251f
+C286 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_556_116# 1.43738f
+C287 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_2256# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_2348# 0.29587f
+C288 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_4348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_4348# 0.39251f
+C289 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_4256# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_24# 0.37451f
+C290 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_24# 0.29587f
+C291 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_116# 0.39251f
+C292 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n4440# 0.37451f
+C293 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_24# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n8208# 0.18596f
+C294 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_2256# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_2348# 0.29587f
+C295 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_4348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_4348# 0.39251f
+C296 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n4440# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n2208# 0.37451f
+C297 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n8208# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_24# 0.18596f
+C298 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_4256# 0.37451f
+C299 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_116# 1.43738f
+C300 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n8208# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_24# 0.18596f
+C301 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_4256# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_4348# 0.59234f
+C302 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n8208# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n16440# 0.18596f
+C303 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_24# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n8208# 0.18596f
+C304 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_4256# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_4348# 0.59234f
+C305 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n8208# 0.2994f
+C306 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_4348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_4348# 0.39251f
+C307 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_8256# 0.18596f
+C308 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n2208# 0.37451f
+C309 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_4256# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_4348# 0.59234f
+C310 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_4256# 0.37451f
+C311 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_2348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_2348# 0.19606f
+C312 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n4116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n4208# 0.59234f
+C313 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n8440# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n4208# 0.37451f
+C314 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_2348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_2348# 0.19606f
+C315 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_4348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_4348# 0.39251f
+C316 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_24# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_8256# 0.18596f
+C317 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_2348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_2348# 0.19606f
+C318 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n4116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n4116# 0.39251f
+C319 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_24# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_556_116# 0.85436f
+C320 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_116# 1.43738f
+C321 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_24# 0.85436f
+C322 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_24# 0.85436f
+C323 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_4256# 0.37451f
+C324 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n2116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n2208# 0.29587f
+C325 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_4348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_4348# 0.39251f
+C326 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_2256# 0.37451f
+C327 bias_final_0/bias_nmos_0/a_n540_116# bias_final_0/bias_nmos_0/a_n52_116# 0.15677f
+C328 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_24# 0.59234f
+C329 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n2116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n2116# 0.19606f
+C330 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_n2116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n2208# 0.29587f
+C331 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n2116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n2116# 0.19606f
+C332 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n4440# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n2208# 0.37451f
+C333 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n4440# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n2208# 0.37451f
+C334 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_4348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_4256# 0.59234f
+C335 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_24# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_116# 0.85436f
+C336 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_24# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_4256# 0.37451f
+C337 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_24# 0.85436f
+C338 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n644_116# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_116# 1.43738f
+C339 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_4348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_4256# 0.59234f
+C340 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_4348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_4348# 0.39251f
+C341 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_4256# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_4348# 0.59234f
+C342 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n2208# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n4440# 0.37451f
+C343 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n4208# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n4116# 0.59234f
+C344 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_2256# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_2348# 0.29587f
+C345 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n4440# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n4348# 0.29587f
+C346 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_24# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_116# 0.85436f
+C347 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n4348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n4440# 0.29587f
+C348 bias_final_0/bias_nmos_1/a_n52_n1716# bias_final_0/bias_nmos_1/a_n452_n1808# 0.23658f
+C349 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_24# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_116# 0.85436f
+C350 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_24# 0.85436f
+C351 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_4348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_4256# 0.59234f
+C352 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_24# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n644_116# 0.85436f
+C353 bias_final_0/bias_nmos_1/a_n452_n1808# bias_final_0/bias_nmos_1/a_n540_n1716# 0.23658f
+C354 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_4256# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_4348# 0.59234f
+C355 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_24# 0.37451f
+C356 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n4440# 0.79917f
+C357 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_4256# 0.37451f
+C358 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_2256# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_2348# 0.29587f
+C359 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n4208# 0.37451f
+C360 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_116# 0.19606f
+C361 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_2256# 0.37451f
+C362 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_4256# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_4348# 0.59234f
+C363 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_4256# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_24# 0.37451f
+C364 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n2208# 0.37451f
+C365 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_24# 0.85436f
+C366 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_n8116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n8208# 0.85436f
+C367 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_116# 0.39251f
+C368 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n8440# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n4208# 0.37451f
+C369 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_4348# sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_4256# 0.59234f
+C370 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_24# 0.59234f
+C371 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n2116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n2208# 0.29587f
+C372 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_n4116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n4116# 0.39251f
+C373 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n8208# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_24# 0.18596f
+C374 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_116# 0.59234f
+C375 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n2208# 0.50926f
+C376 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n4208# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_n4116# 0.59234f
+C377 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n4208# 0.37451f
+C378 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_116# 0.29587f
+C379 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n2208# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_24# 0.37451f
+C380 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_116# 0.19606f
+C381 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_24# 0.29587f
+C382 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n4208# 0.37451f
+C383 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n2208# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n2116# 0.29587f
+C384 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_556_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 4.72381f
+C385 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_8256# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 2.45755f
+C386 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n8348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n8440# 0.59234f
+C387 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n8440# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n4208# 0.37451f
+C388 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n4116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n4208# 0.59234f
+C389 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_n8348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n8348# 0.39251f
+C390 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_24# 0.50926f
+C391 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_4256# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_4348# 0.59234f
+C392 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n4440# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n4348# 0.29587f
+C393 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_2348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.47456f
+C394 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n8348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n8348# 0.39251f
+C395 bias_final_0/bias_nmos_0/a_52_n1808# bias_final_0/bias_nmos_0/a_n52_n1716# 0.23658f
+C396 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n8348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n8348# 0.39251f
+C397 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_n4348# 1.26104f
+C398 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n4348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.47455f
+C399 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n8348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_n8348# 0.39251f
+C400 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_2348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_2256# 0.29587f
+C401 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_4348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_4348# 0.39251f
+C402 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_4348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_4256# 0.59234f
+C403 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n2208# 0.37451f
+C404 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n4348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n4440# 0.29587f
+C405 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n4208# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n4116# 0.59234f
+C406 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n4348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n4348# 0.19606f
+C407 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_2256# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_24# 0.37451f
+C408 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_24# 0.29587f
+C409 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n2208# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_24# 0.37451f
+C410 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_2348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_2348# 0.19606f
+C411 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_n8348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n8440# 0.59234f
+C412 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n8440# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n8348# 0.59234f
+C413 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n4116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n4208# 0.59234f
+C414 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_4256# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_4348# 0.59234f
+C415 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n8440# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n8348# 0.59234f
+C416 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_24# 0.29587f
+C417 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n8440# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n8348# 0.59234f
+C418 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n8440# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n8348# 0.59234f
+C419 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n8440# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n8348# 0.59234f
+C420 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_24# 0.29587f
+C421 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n4440# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n4348# 0.29587f
+C422 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_116# 0.29587f
+C423 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n4348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n4440# 0.29587f
+C424 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n8348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n8440# 0.59234f
+C425 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_n8116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n8208# 0.85436f
+C426 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_n2116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n2208# 0.29587f
+C427 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n4348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.47456f
+C428 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.5087f
+C429 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n8440# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_n8348# 0.59234f
+C430 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_n2116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n2116# 0.19606f
+C431 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_24# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_8256# 0.18596f
+C432 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n4440# 0.37451f
+C433 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n8440# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n8348# 0.59234f
+C434 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_8256# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_24# 0.18596f
+C435 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n4440# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n2208# 0.37451f
+C436 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_n2116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n2116# 0.19606f
+C437 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n4348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n4440# 0.29587f
+C438 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n4348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_n4348# 0.19606f
+C439 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_116# 0.39251f
+C440 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_24# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_8256# 0.18596f
+C441 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n16440# 2.22732f
+C442 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_556_n8116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 4.72133f
+C443 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_2256# 0.79917f
+C444 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_2348# 0.47455f
+C445 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_n4116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n4116# 0.39251f
+C446 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_116# 0.29587f
+C447 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n4208# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_24# 0.37451f
+C448 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_24# 0.29587f
+C449 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_24# 0.29587f
+C450 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_24# pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_8256# 0.18596f
+C451 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n2116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n2208# 0.29587f
+C452 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_116# 0.39251f
+C453 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n4208# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n8440# 0.37451f
+C454 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n4116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n4116# 0.39251f
+C455 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n4208# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n8440# 0.37451f
+C456 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_2348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_2348# 0.19606f
+C457 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n2208# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_24# 0.37451f
+C458 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_24# 0.59234f
+C459 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_n4116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n4208# 0.59234f
+C460 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n8440# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n4208# 0.37451f
+C461 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n4116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n4116# 0.39251f
+C462 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n4208# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n8440# 0.37451f
+C463 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n4116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n4208# 0.59234f
+C464 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n4348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n4348# 0.19606f
+C465 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n2116# 0.45674f
+C466 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_4256# 0.37451f
+C467 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n8348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n8440# 0.59234f
+C468 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n4208# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n4116# 0.59234f
+C469 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n4208# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n4116# 0.59234f
+C470 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n8348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n8348# 0.39251f
+C471 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n4208# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n4116# 0.59234f
+C472 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_116# 0.19606f
+C473 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n2208# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_24# 0.37451f
+C474 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n8440# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n4208# 0.37451f
+C475 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_24# 0.29587f
+C476 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n4348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n4440# 0.29587f
+C477 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_n4116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n4116# 0.39251f
+C478 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n8348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n8348# 0.39251f
+C479 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n4116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n4208# 0.59234f
+C480 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n8348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n8348# 0.39251f
+C481 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_116# 0.59234f
+C482 sh_final_0/sw_nmos_1/a_100_n400# sh_final_0/sw_nmos_1/a_n188_n400# 0.14309f
+C483 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_2348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_2348# 0.19606f
+C484 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n4116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n4208# 0.59234f
+C485 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_116# 0.45674f
+C486 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n4116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n4208# 0.59234f
+C487 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n4348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n4440# 0.29587f
+C488 bias_final_0/bias_nmos_1/a_n452_24# bias_final_0/bias_nmos_1/a_n452_n1808# 0.37451f
+C489 bias_final_0/bias_nmos_1/a_n52_116# bias_final_0/bias_nmos_1/a_52_24# 0.23658f
+C490 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_n4116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n4208# 0.59234f
+C491 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_24# 0.29587f
+C492 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_2348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_2256# 0.29587f
+C493 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_n8116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 1.30581f
+C494 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n8440# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n8348# 0.59234f
+C495 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n2116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n2208# 0.29587f
+C496 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_2256# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_24# 0.37451f
+C497 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_116# 0.59234f
+C498 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_116# 0.29587f
+C499 bias_final_0/bias_nmos_0/a_52_24# bias_final_0/bias_nmos_0/a_452_116# 0.23658f
+C500 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n4348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_n4348# 0.19606f
+C501 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_n4116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n4208# 0.59234f
+C502 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 1.30923f
+C503 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_4256# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_4348# 0.59234f
+C504 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_2348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.47456f
+C505 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n2208# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_24# 0.37451f
+C506 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_n2116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n2116# 0.19606f
+C507 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n4440# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_n4348# 0.29587f
+C508 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_116# 0.29587f
+C509 pga_final_0/m2_18000_25850# pga_final_0/r_fb_0/a_n200_8000# 0.10996f
+C510 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_4348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_4348# 0.39251f
+C511 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_24# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n4208# 0.37451f
+C512 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_24# 0.29587f
+C513 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n4208# 0.37451f
+C514 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_116# 0.19606f
+C515 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_2256# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_2348# 0.29587f
+C516 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_24# 0.59234f
+C517 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_116# 0.39251f
+C518 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_116# 0.39251f
+C519 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n4348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_n4348# 0.19606f
+C520 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_24# 0.29968f
+C521 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_n4348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n4440# 0.29587f
+C522 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_116# 0.19606f
+C523 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_116# 0.39251f
+C524 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n8440# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n4208# 0.37451f
+C525 bias_final_0/bias_nmos_1/a_n52_116# bias_final_0/m2_n100_6000# 0.29384f
+C526 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_116# 0.29587f
+C527 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_116# 0.39251f
+C528 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_116# 0.59234f
+C529 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_116# 0.19606f
+C530 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_116# 0.59234f
+C531 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_n8116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n8208# 0.85436f
+C532 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_116# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_116# 0.39251f
+C533 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_8256# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_24# 0.18596f
+C534 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n4348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n4440# 0.29587f
+C535 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_4256# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_4348# 0.59234f
+C536 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_2348# 0.47455f
+C537 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_2348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 1.26104f
+C538 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_4256# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_24# 0.37451f
+C539 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_24# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_2256# 0.37451f
+C540 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n644_n8116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 4.72133f
+C541 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n2116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n2208# 0.29587f
+C542 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_2348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_2348# 0.19606f
+C543 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n8440# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_n8348# 0.59234f
+C544 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n2208# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_24# 0.37451f
+C545 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n8440# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_n8348# 0.59234f
+C546 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n2116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n2116# 0.19606f
+C547 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_8256# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_24# 0.18596f
+C548 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n4208# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n8440# 0.37451f
+C549 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_n8348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n8348# 0.39251f
+C550 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_n4116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n4116# 0.39251f
+C551 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n2116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_n2116# 0.19606f
+C552 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n4440# 0.74825f
+C553 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_2256# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.7986f
+C554 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_2256# 0.74825f
+C555 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_4348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_4348# 0.39251f
+C556 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n4208# 0.37451f
+C557 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_116# 0.19606f
+C558 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n2116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n2116# 0.19606f
+C559 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_24# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_116# 0.59234f
+C560 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n4348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n4440# 0.29587f
+C561 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n2116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n2116# 0.19606f
+C562 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n2208# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_n2116# 0.29587f
+C563 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_24# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_116# 0.85436f
+C564 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n4116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_n4116# 0.39251f
+C565 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n2116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n2208# 0.29587f
+C566 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n4440# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n2208# 0.37451f
+C567 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n8348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n8348# 0.39251f
+C568 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n2208# 0.45835f
+C569 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n2116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_n2116# 0.19606f
+C570 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n2116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n2208# 0.29587f
+C571 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n2208# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n4440# 0.37451f
+C572 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n8348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_n8348# 0.39251f
+C573 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n8440# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_n8348# 0.59234f
+C574 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_24# 0.29587f
+C575 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n644_n8116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n8208# 0.85436f
+C576 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_2256# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_24# 0.37451f
+C577 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n2208# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n2116# 0.29587f
+C578 bias_final_0/bias_nmos_0/a_n540_116# bias_final_0/bias_nmos_0/a_n452_24# 0.23658f
+C579 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n2208# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n2116# 0.29587f
+C580 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_4348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_4348# 0.39251f
+C581 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n8208# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_24# 0.18596f
+C582 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n2208# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n2116# 0.29587f
+C583 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n2208# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n2116# 0.29587f
+C584 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_4256# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_24# 0.37451f
+C585 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_2348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_2256# 0.29587f
+C586 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n8440# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n8348# 0.59234f
+C587 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n2208# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n4440# 0.37451f
+C588 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_24# 0.45835f
+C589 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n2208# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_n2116# 0.29587f
+C590 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n8348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n8440# 0.59234f
+C591 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_116# 0.29587f
+C592 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n8440# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n8348# 0.59234f
+C593 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n8348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n8440# 0.59234f
+C594 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_4348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_4256# 0.59234f
+C595 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_2348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_2256# 0.29587f
+C596 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_n8348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n8440# 0.59234f
+C597 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n8440# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n4208# 0.37451f
+C598 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_556_116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_24# 0.85436f
+C599 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n8440# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n8348# 0.59234f
+C600 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_116# 0.19606f
+C601 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_2348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_2256# 0.29587f
+C602 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_24# 0.29587f
+C603 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n2208# 0.37451f
+C604 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_116# 0.19606f
+C605 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n4440# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n4348# 0.29587f
+C606 bias_final_0/bias_nmos_1/a_52_24# bias_final_0/bias_nmos_1/a_452_116# 0.23658f
+C607 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_24# 0.59234f
+C608 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n4348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n4440# 0.29587f
+C609 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_2348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_2256# 0.29587f
+C610 bias_final_0/bias_nmos_0/a_452_n1716# bias_final_0/bias_nmos_0/a_n52_n1716# 0.15677f
+C611 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n4208# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n8440# 0.37451f
+C612 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n2208# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_24# 0.37451f
+C613 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_4256# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_4348# 0.59234f
+C614 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_2348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_2348# 0.19606f
+C615 bias_final_0/bias_nmos_1/a_n452_24# bias_final_0/bias_nmos_1/a_n540_116# 0.23658f
+C616 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_24# 0.29587f
+C617 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_4256# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_4348# 0.59234f
+C618 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_24# 0.29587f
+C619 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_116# 0.19606f
+C620 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n2208# 0.37451f
+C621 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n4116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_n4116# 0.39251f
+C622 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n2208# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n2116# 0.29587f
+C623 sh_final_0/opamp_2stage_final_0/m2_7152_15850# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 2.53133f
+C624 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n2208# 0.50926f
+C625 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_24# 0.29587f
+C626 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n2208# 0.37451f
+C627 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n4116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n4116# 0.39251f
+C628 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_24# 0.29587f
+C629 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_116# 0.19606f
+C630 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_8256# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 2.45755f
+C631 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m2_14000_34400# 39.9023f
+C632 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_116# 0.39251f
+C633 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n8440# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n8348# 0.59234f
+C634 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_24# 0.29587f
+C635 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n4208# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n8440# 0.37451f
+C636 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n8208# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.25049f
+C637 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n4440# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n4348# 0.29587f
+C638 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_116# 0.29587f
+C639 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_116# 0.19606f
+C640 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n4348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n4440# 0.29587f
+C641 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_n2116# 0.29587f
+C642 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n2208# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n2116# 0.29587f
+C643 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n4208# 0.37451f
+C644 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_116# 0.29587f
+C645 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n4116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n4116# 0.39251f
+C646 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n8440# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n4208# 0.37451f
+C647 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_116# 0.29587f
+C648 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n4208# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_n4116# 0.59234f
+C649 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_2256# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_24# 0.37451f
+C650 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_116# 0.39251f
+C651 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_2348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_2348# 0.19606f
+C652 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_116# 0.29587f
+C653 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_2348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_2256# 0.29587f
+C654 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n8208# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n16440# 0.18596f
+C655 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n4208# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n4116# 0.59234f
+C656 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n8440# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n4208# 0.37451f
+C657 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n2116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n2208# 0.29587f
+C658 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_4256# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_24# 0.37451f
+C659 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n8440# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n4208# 0.37451f
+C660 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_2348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_2256# 0.29587f
+C661 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_4348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_4256# 0.59234f
+C662 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_4256# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_4348# 0.59234f
+C663 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n4208# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n4116# 0.59234f
+C664 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n4208# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n4116# 0.59234f
+C665 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n4348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n4348# 0.19606f
+C666 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n4116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_n4116# 0.39251f
+C667 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n2116# 0.29587f
+C668 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n4116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n4208# 0.59234f
+C669 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n2116# 0.45673f
+C670 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n4116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n4116# 0.39251f
+C671 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n4116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n4208# 0.59234f
+C672 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n4116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n4208# 0.59234f
+C673 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n8208# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_24# 0.18596f
+C674 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n4116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n4208# 0.59234f
+C675 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n2116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n2208# 0.29587f
+C676 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n8348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n8440# 0.59234f
+C677 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_2348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_2348# 0.19606f
+C678 bias_final_0/bias_nmos_1/a_n452_24# bias_final_0/bias_nmos_1/a_n52_116# 0.23658f
+C679 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n4208# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_n4116# 0.59234f
+C680 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_2348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_2348# 0.19606f
+C681 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_116# 0.45673f
+C682 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_2256# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_24# 0.37451f
+C683 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n4348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n4440# 0.29587f
+C684 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_8256# 2.50241f
+C685 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n2116# 0.29587f
+C686 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_2256# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_24# 0.37451f
+C687 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n8348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_n8348# 0.39251f
+C688 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_2348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_2348# 0.19606f
+C689 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_2256# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_24# 0.37451f
+C690 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_2348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_2256# 0.29587f
+C691 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n644_116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_24# 0.85436f
+C692 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_n8116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n8208# 0.85436f
+C693 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_2256# 0.37451f
+C694 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_4256# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_4348# 0.59234f
+C695 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_2348# 1.26104f
+C696 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_n8116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_n8116# 1.43738f
+C697 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_2348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_2256# 0.29587f
+C698 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n2116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n2116# 0.19606f
+C699 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_116# 0.59234f
+C700 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n4208# 0.37451f
+C701 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_2348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_2256# 0.29587f
+C702 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_24# 0.59234f
+C703 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_2348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_2348# 0.19606f
+C704 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n2116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n2208# 0.29587f
+C705 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_116# 0.29587f
+C706 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_116# 0.59234f
+C707 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_4256# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_4348# 0.59234f
+C708 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n2208# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n2116# 0.29587f
+C709 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_2348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_2256# 0.29587f
+C710 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n4208# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n4116# 0.59234f
+C711 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_2348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_2256# 0.29587f
+C712 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n4208# 0.37451f
+C713 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n4348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_n4348# 0.19606f
+C714 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_116# 1.43738f
+C715 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_2256# 0.37451f
+C716 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_116# 0.39251f
+C717 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n4208# 0.37451f
+C718 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_24# 0.50926f
+C719 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_24# 0.29587f
+C720 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_2348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_2256# 0.29587f
+C721 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_2256# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_2348# 0.29587f
+C722 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n4440# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n2208# 0.37451f
+C723 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_2348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_2256# 0.29587f
+C724 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_116# 0.59234f
+C725 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_2256# 0.37451f
+C726 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n4208# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_24# 0.37451f
+C727 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_116# 0.39251f
+C728 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_116# 0.59234f
+C729 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_n8348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n8348# 0.39251f
+C730 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n4116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n4208# 0.59234f
+C731 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n4208# 0.37451f
+C732 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_4348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_4348# 0.39251f
+C733 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_n4116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n4116# 0.39251f
+C734 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n4116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n4208# 0.59234f
+C735 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n4208# 0.37451f
+C736 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_116# 0.59234f
+C737 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_2348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_2256# 0.29587f
+C738 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n4348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n4348# 0.19606f
+C739 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_4256# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_4348# 0.59234f
+C740 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n4440# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n4348# 0.29587f
+C741 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_116# 0.39251f
+C742 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_4256# 0.37451f
+C743 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n4116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_n4116# 0.39251f
+C744 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_4348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_4348# 0.39251f
+C745 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_24# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_116# 0.59234f
+C746 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_116# 0.59234f
+C747 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_116# 0.59234f
+C748 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_24# 0.59234f
+C749 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_2348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_2348# 0.19606f
+C750 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_116# 0.19606f
+C751 bias_final_0/bias_nmos_0/a_n52_116# bias_final_0/bias_nmos_0/a_452_116# 0.15677f
+C752 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_n8116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n644_n8116# 1.43738f
+C753 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_2348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_2256# 0.29587f
+C754 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_116# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_116# 0.39251f
+C755 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_116# 0.39251f
+C756 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n2116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n2208# 0.29587f
+C757 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n2116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_n2116# 0.19606f
+C758 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n4440# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n2208# 0.37451f
+C759 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_116# 0.59234f
+C760 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_n2116# 0.29587f
+C761 bias_final_0/bias_nmos_0/a_n452_24# bias_final_0/bias_nmos_0/a_n52_116# 0.23658f
+C762 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_116# 0.59234f
+C763 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_24# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_116# 0.59234f
+C764 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n2208# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_24# 0.37451f
+C765 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_2256# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_24# 0.37451f
+C766 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_2348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_2348# 0.19606f
+C767 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.45835f
+C768 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_n4348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n4440# 0.29587f
+C769 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n4440# 0.74825f
+C770 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n8440# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n8348# 0.59234f
+C771 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_4256# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_4348# 0.59234f
+C772 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n8440# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n8348# 0.59234f
+C773 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_n4348# 1.26104f
+C774 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 1.24508f
+C775 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_4256# 0.37451f
+C776 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n2116# 0.29587f
+C777 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_4348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_4348# 0.39251f
+C778 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n2208# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n2116# 0.29587f
+C779 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_2256# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_2348# 0.29587f
+C780 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_n8348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n8440# 0.59234f
+C781 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n2208# 0.45835f
+C782 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n4440# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n4348# 0.29587f
+C783 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_116# 0.19606f
+C784 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_24# 0.29587f
+C785 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_116# 0.19606f
+C786 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n4440# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n4348# 0.29587f
+C787 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_4348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_4348# 0.39251f
+C788 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_4256# 0.37451f
+C789 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_4256# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_24# 0.37451f
+C790 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_4256# 0.37451f
+C791 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_2348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_2256# 0.29587f
+C792 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n4440# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n2208# 0.37451f
+C793 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_4348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_4256# 0.59234f
+C794 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_4256# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_24# 0.37451f
+C795 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n4116# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n4208# 0.59234f
+C796 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_n4348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n4348# 0.19606f
+C797 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_4348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_4256# 0.59234f
+C798 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_n2116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n2116# 0.19606f
+C799 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_4256# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_4348# 0.59234f
+C800 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n2208# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n2116# 0.29587f
+C801 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n16440# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 2.27217f
+C802 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_n8348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n8348# 0.39251f
+C803 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_24# 0.45835f
+C804 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_4256# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_4348# 0.59234f
+C805 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n2208# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n2116# 0.29587f
+C806 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_4348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_4256# 0.59234f
+C807 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_4256# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_4348# 0.59234f
+C808 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_4348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_4348# 0.39251f
+C809 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_4256# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_4348# 0.59234f
+C810 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_2348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_2348# 0.19606f
+C811 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n2208# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n4440# 0.37451f
+C812 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_116# 0.19606f
+C813 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n4348# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n4440# 0.29587f
+C814 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n4116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n4208# 0.59234f
+C815 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n556_n4116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n4208# 0.59234f
+C816 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_2256# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_2348# 0.29587f
+C817 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_4348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_4256# 0.59234f
+C818 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n4348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n4348# 0.19606f
+C819 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_4348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_4256# 0.59234f
+C820 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_4256# 0.37451f
+C821 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n4348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n4440# 0.29587f
+C822 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n4440# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.7986f
+C823 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_4256# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_4348# 0.59234f
+C824 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_116# 0.45673f
+C825 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n4348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n4348# 0.19606f
+C826 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_4256# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_4348# 0.59234f
+C827 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n4208# 0.37451f
+C828 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_116# 0.85436f
+C829 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n8440# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_n8348# 0.59234f
+C830 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n4440# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n4348# 0.29587f
+C831 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_n4348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n4440# 0.29587f
+C832 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n4440# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n4348# 0.29587f
+C833 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_n4348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n4348# 0.19606f
+C834 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_24# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.45835f
+C835 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_n4348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n4440# 0.29587f
+C836 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_n4348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n4440# 0.29587f
+C837 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_116# 0.59234f
+C838 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_24# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n52_116# 0.59234f
+C839 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n4348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n4440# 0.29587f
+C840 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n644_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 4.72381f
+C841 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n4440# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n4348# 0.29587f
+C842 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_116# 0.59234f
+C843 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_n8116# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n8208# 0.85436f
+C844 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n4208# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n8440# 0.37451f
+C845 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_116# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_24# 0.59234f
+C846 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n4440# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n2208# 0.37451f
+C847 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n2116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n2116# 0.19606f
+C848 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n8348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n8440# 0.59234f
+C849 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n4440# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n4348# 0.29587f
+C850 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n4348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n4440# 0.29587f
+C851 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_452_n8348# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n52_n8348# 0.39251f
+C852 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n4440# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n4348# 0.29587f
+C853 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n2208# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.45835f
+C854 bias_final_0/bias_nmos_1/a_52_24# bias_final_0/m2_n100_6000# 0.20206f
+C855 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n2116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_n2116# 0.19606f
+C856 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n4440# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n4348# 0.29587f
+C857 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n2116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n2116# 0.19606f
+C858 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_24# pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_116# 0.59234f
+C859 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n2208# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_24# 0.37451f
+C860 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_4256# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n556_4348# 0.59234f
+C861 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n4348# 0.47456f
+C862 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n4348# pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n4348# 0.19606f
+C863 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n4348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.47456f
+C864 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_n4348# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n4440# 0.29587f
+C865 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_4348# sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n556_4348# 0.39251f
+C866 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_2348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_2256# 0.29587f
+C867 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n4440# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n4348# 0.29587f
+C868 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_n2116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n2208# 0.29587f
+C869 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_2348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_2256# 0.29587f
+C870 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_24# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_4256# 0.37451f
+C871 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n4208# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_24# 0.37451f
+C872 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n4348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n4440# 0.29587f
+C873 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n8348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_n8348# 0.39251f
+C874 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n2116# 0.45674f
+C875 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n4440# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.79917f
+C876 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_116# 1.3092f
+C877 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_116# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_116# 0.19606f
+C878 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n2208# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_24# 0.37451f
+C879 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n8348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n52_n8348# 0.39251f
+C880 bias_final_0/bias_nmos_1/a_52_n1808# bias_final_0/bias_nmos_1/a_52_24# 0.37451f
+C881 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_24# 0.50926f
+C882 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n4116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_n4116# 0.39251f
+C883 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_n2116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n2116# 0.19606f
+C884 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n16440# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 2.22732f
+C885 sh_final_0/opamp_2stage_final_0/w_n2152_15100# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_116# 0.45674f
+C886 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n2116# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n2208# 0.29587f
+C887 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n8348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n8440# 0.59234f
+C888 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.45674f
+C889 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_24# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_2256# 0.37451f
+C890 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n2208# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n4440# 0.37451f
+C891 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n2116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n2116# 0.19606f
+C892 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_4348# sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_4256# 0.59234f
+C893 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_452_n8348# pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n8440# 0.59234f
+C894 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_2348# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_2256# 0.29587f
+C895 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_4256# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_4348# 0.59234f
+C896 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n4440# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n2208# 0.37451f
+C897 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n2208# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_n2116# 0.29587f
+C898 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_2256# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.74825f
+C899 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n2116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n2116# 0.19606f
+C900 bias_final_0/bias_nmos_0/a_n540_n1716# bias_final_0/bias_nmos_0/a_n52_n1716# 0.15677f
+C901 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_24# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.25077f
+C902 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_4348# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_4256# 0.59234f
+C903 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_452_n4116# pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n4208# 0.59234f
+C904 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n4440# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n2208# 0.37451f
+C905 bias_final_0/bias_nmos_0/a_n452_n1808# bias_final_0/bias_nmos_0/a_n52_n1716# 0.23658f
+C906 sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n4348# sh_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_n4348# 0.19606f
+C907 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_n2116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n2116# 0.19606f
+C908 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_n4348# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 1.26104f
+C909 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n2208# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n2116# 0.29587f
+C910 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n2208# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_452_n2116# 0.29587f
+C911 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n4440# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n2208# 0.37451f
+C912 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n16440# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 2.27217f
+C913 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n2208# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n2116# 0.29587f
+C914 bias_final_0/bias_nmos_0/a_52_n1808# bias_final_0/bias_nmos_0/a_52_24# 0.37451f
+C915 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n52_n2116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n2208# 0.29587f
+C916 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n4440# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n2208# 0.37451f
+C917 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n2116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.45674f
+C918 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_n4348# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n4348# 0.19606f
+C919 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n2116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n2208# 0.29587f
+C920 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n4440# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n4348# 0.29587f
+C921 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n2116# pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_n2116# 0.19606f
+C922 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n2208# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 0.45835f
+C923 bias_final_0/bias_nmos_1/a_n52_n1716# bias_final_0/bias_nmos_1/a_452_n1716# 0.15677f
+C924 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n556_n2116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n2208# 0.29587f
+C925 sh_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_n8116# sh_final_0/opamp_2stage_final_0/w_n2152_15100# 1.30578f
+C926 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_n2116# pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n2208# 0.29587f
+C927 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_116# sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_24# 0.29587f
+C928 sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_2256# sh_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_2348# 0.29587f
+C929 m1_125400_88400# VSUBS 47.8599f **FLOATING
+C930 m1_114400_88400# VSUBS 47.8599f **FLOATING
+C931 m1_103400_88400# VSUBS 47.8599f **FLOATING
+C932 m1_92400_88400# VSUBS 47.8599f **FLOATING
+C933 m1_81400_88400# VSUBS 47.8599f **FLOATING
+C934 m1_70400_88400# VSUBS 47.8599f **FLOATING
+C935 m1_59400_88400# VSUBS 47.8599f **FLOATING
+C936 m1_48400_88400# VSUBS 47.8599f **FLOATING
+C937 m1_37400_88400# VSUBS 47.8599f **FLOATING
+C938 m1_26400_88400# VSUBS 47.8599f **FLOATING
+C939 m1_15400_88400# VSUBS 47.8599f **FLOATING
+C940 m1_4400_88400# VSUBS 47.8599f **FLOATING
+C941 vref_final_0/m2_n100_0# VSUBS 1.74671f **FLOATING
+C942 vref_final_0/m2_n100_7600# VSUBS 0.75795f **FLOATING
+C943 vref_final_0/m2_n100_12600# VSUBS 0.75795f **FLOATING
+C944 vref_final_0/vref_nmos_0/a_400_n200# VSUBS 0.23277f **FLOATING
+C945 vref_final_0/vref_nmos_0/a_n488_n200# VSUBS 0.23277f **FLOATING
+C946 vref_final_0/vref_nmos_0/a_n400_n292# VSUBS 1.90656f **FLOATING
+C947 vref_final_0/r_vref_2/a_n200_n1902# VSUBS 0.52654f **FLOATING
+C948 vref_final_0/r_vref_2/a_n200_1800# VSUBS 0.52672f **FLOATING
+C949 vref_final_0/r_vref_1/a_n200_n1902# VSUBS 0.52672f **FLOATING
+C950 vref_final_0/r_vref_1/a_n200_1800# VSUBS 0.52672f **FLOATING
+C951 vref_final_0/r_vref_0/a_n200_n1902# VSUBS 0.52672f **FLOATING
+C952 vref_final_0/r_vref_0/a_n200_1800# VSUBS 0.52654f **FLOATING
+C953 pga_final_0/m2_26000_5850# VSUBS 2.91085f **FLOATING
+C954 pga_final_0/m2_18000_25850# VSUBS 10.74107f
+C955 pga_final_0/opamp_2stage_final_0/m2_7152_15850# VSUBS 3.50451f **FLOATING
+C956 pga_final_0/opamp_2stage_final_0/m2_14000_34400# VSUBS 39.9023f **FLOATING
+C957 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_n8348# VSUBS 2.01144f **FLOATING
+C958 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_n8348# VSUBS 2.01144f **FLOATING
+C959 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n8440# VSUBS 0.76958f **FLOATING
+C960 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n8440# VSUBS 0.71706f **FLOATING
+C961 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n8440# VSUBS 0.71706f **FLOATING
+C962 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n8440# VSUBS 0.76958f **FLOATING
+C963 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_n4116# VSUBS 1.99441f **FLOATING
+C964 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_n4116# VSUBS 1.99441f **FLOATING
+C965 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n4208# VSUBS 0.41359f **FLOATING
+C966 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n4208# VSUBS 0.36106f **FLOATING
+C967 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n4208# VSUBS 0.36106f **FLOATING
+C968 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n4208# VSUBS 0.41359f **FLOATING
+C969 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_116# VSUBS 1.99441f **FLOATING
+C970 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_116# VSUBS 1.99441f **FLOATING
+C971 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_24# VSUBS 0.41359f **FLOATING
+C972 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_24# VSUBS 0.36106f **FLOATING
+C973 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_24# VSUBS 0.36106f **FLOATING
+C974 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_24# VSUBS 0.41359f **FLOATING
+C975 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_4348# VSUBS 2.01287f **FLOATING
+C976 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_4348# VSUBS 2.0105f **FLOATING
+C977 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_4256# VSUBS 0.73349f **FLOATING
+C978 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_4256# VSUBS 0.6573f **FLOATING
+C979 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_4256# VSUBS 0.65654f **FLOATING
+C980 pga_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_4256# VSUBS 0.70891f **FLOATING
+C981 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_n8348# VSUBS 2.01144f **FLOATING
+C982 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_n8348# VSUBS 2.01144f **FLOATING
+C983 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n8440# VSUBS 0.76958f **FLOATING
+C984 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n8440# VSUBS 0.71706f **FLOATING
+C985 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n8440# VSUBS 0.71706f **FLOATING
+C986 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n8440# VSUBS 0.76958f **FLOATING
+C987 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_n4116# VSUBS 1.99441f **FLOATING
+C988 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_n4116# VSUBS 1.99441f **FLOATING
+C989 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n4208# VSUBS 0.41359f **FLOATING
+C990 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n4208# VSUBS 0.36106f **FLOATING
+C991 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n4208# VSUBS 0.36106f **FLOATING
+C992 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n4208# VSUBS 0.41359f **FLOATING
+C993 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_116# VSUBS 1.99441f **FLOATING
+C994 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_116# VSUBS 1.99441f **FLOATING
+C995 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_24# VSUBS 0.41359f **FLOATING
+C996 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_24# VSUBS 0.36106f **FLOATING
+C997 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_24# VSUBS 0.36106f **FLOATING
+C998 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_24# VSUBS 0.41359f **FLOATING
+C999 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_4348# VSUBS 2.01395f **FLOATING
+C1000 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_4348# VSUBS 2.01395f **FLOATING
+C1001 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_4256# VSUBS 0.74779f **FLOATING
+C1002 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_4256# VSUBS 0.67207f **FLOATING
+C1003 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_4256# VSUBS 0.67163f **FLOATING
+C1004 pga_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_4256# VSUBS 0.74735f **FLOATING
+C1005 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_n4348# VSUBS 1.26104f **FLOATING
+C1006 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n4348# VSUBS 0.47456f **FLOATING
+C1007 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n4348# VSUBS 0.47455f **FLOATING
+C1008 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n4348# VSUBS 0.47456f **FLOATING
+C1009 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_n4348# VSUBS 1.26104f **FLOATING
+C1010 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n4440# VSUBS 0.86238f **FLOATING
+C1011 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n4440# VSUBS 0.80167f **FLOATING
+C1012 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n4440# VSUBS 0.80167f **FLOATING
+C1013 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n4440# VSUBS 0.86238f **FLOATING
+C1014 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_n2116# VSUBS 1.24508f **FLOATING
+C1015 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_n2116# VSUBS 0.45674f **FLOATING
+C1016 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_n2116# VSUBS 0.45673f **FLOATING
+C1017 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_n2116# VSUBS 0.45674f **FLOATING
+C1018 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_n2116# VSUBS 1.24508f **FLOATING
+C1019 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_n2208# VSUBS 0.53995f **FLOATING
+C1020 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_n2208# VSUBS 0.47924f **FLOATING
+C1021 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_n2208# VSUBS 0.47924f **FLOATING
+C1022 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_n2208# VSUBS 0.53995f **FLOATING
+C1023 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_116# VSUBS 1.24508f **FLOATING
+C1024 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_116# VSUBS 0.45674f **FLOATING
+C1025 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_116# VSUBS 0.45673f **FLOATING
+C1026 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_116# VSUBS 0.45674f **FLOATING
+C1027 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_116# VSUBS 1.24508f **FLOATING
+C1028 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_24# VSUBS 0.53995f **FLOATING
+C1029 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_24# VSUBS 0.47924f **FLOATING
+C1030 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_24# VSUBS 0.47924f **FLOATING
+C1031 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_24# VSUBS 0.53995f **FLOATING
+C1032 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_956_2348# VSUBS 1.26104f **FLOATING
+C1033 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_452_2348# VSUBS 0.47456f **FLOATING
+C1034 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n52_2348# VSUBS 0.47455f **FLOATING
+C1035 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n556_2348# VSUBS 0.47456f **FLOATING
+C1036 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n1044_2348# VSUBS 1.26104f **FLOATING
+C1037 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_556_2256# VSUBS 0.86238f **FLOATING
+C1038 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_52_2256# VSUBS 0.80167f **FLOATING
+C1039 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n452_2256# VSUBS 0.80167f **FLOATING
+C1040 pga_final_0/opamp_2stage_final_0/m4_pmos_0/a_n956_2256# VSUBS 0.86238f **FLOATING
+C1041 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_n4348# VSUBS 1.26104f **FLOATING
+C1042 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n4348# VSUBS 0.47456f **FLOATING
+C1043 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n4348# VSUBS 0.47455f **FLOATING
+C1044 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n4348# VSUBS 0.47456f **FLOATING
+C1045 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_n4348# VSUBS 1.26104f **FLOATING
+C1046 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n4440# VSUBS 0.86238f **FLOATING
+C1047 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n4440# VSUBS 0.80167f **FLOATING
+C1048 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n4440# VSUBS 0.80167f **FLOATING
+C1049 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n4440# VSUBS 0.86182f **FLOATING
+C1050 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_n2116# VSUBS 1.24508f **FLOATING
+C1051 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_n2116# VSUBS 0.45674f **FLOATING
+C1052 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_n2116# VSUBS 0.45673f **FLOATING
+C1053 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_n2116# VSUBS 0.45674f **FLOATING
+C1054 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_n2116# VSUBS 1.24508f **FLOATING
+C1055 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_n2208# VSUBS 0.53995f **FLOATING
+C1056 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_n2208# VSUBS 0.47924f **FLOATING
+C1057 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_n2208# VSUBS 0.47924f **FLOATING
+C1058 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_n2208# VSUBS 0.53939f **FLOATING
+C1059 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_116# VSUBS 1.24508f **FLOATING
+C1060 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_116# VSUBS 0.45674f **FLOATING
+C1061 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_116# VSUBS 0.45673f **FLOATING
+C1062 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_116# VSUBS 0.45674f **FLOATING
+C1063 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_116# VSUBS 1.24508f **FLOATING
+C1064 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_24# VSUBS 0.53995f **FLOATING
+C1065 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_24# VSUBS 0.47924f **FLOATING
+C1066 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_24# VSUBS 0.47924f **FLOATING
+C1067 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_24# VSUBS 0.53939f **FLOATING
+C1068 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_956_2348# VSUBS 1.26104f **FLOATING
+C1069 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_452_2348# VSUBS 0.47456f **FLOATING
+C1070 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n52_2348# VSUBS 0.47455f **FLOATING
+C1071 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n556_2348# VSUBS 0.47456f **FLOATING
+C1072 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n1044_2348# VSUBS 1.26104f **FLOATING
+C1073 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_556_2256# VSUBS 0.86238f **FLOATING
+C1074 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_52_2256# VSUBS 0.80167f **FLOATING
+C1075 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n452_2256# VSUBS 0.80167f **FLOATING
+C1076 pga_final_0/opamp_2stage_final_0/m3_pmos_0/a_n956_2256# VSUBS 0.86182f **FLOATING
+C1077 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_n4348# VSUBS 1.01566f **FLOATING
+C1078 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_n4348# VSUBS 1.01566f **FLOATING
+C1079 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n4440# VSUBS 0.7066f **FLOATING
+C1080 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n4440# VSUBS 0.65407f **FLOATING
+C1081 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n4440# VSUBS 0.65407f **FLOATING
+C1082 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n4440# VSUBS 0.7066f **FLOATING
+C1083 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_n2116# VSUBS 0.99972f **FLOATING
+C1084 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_n2116# VSUBS 0.99972f **FLOATING
+C1085 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n2208# VSUBS 0.41359f **FLOATING
+C1086 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n2208# VSUBS 0.36106f **FLOATING
+C1087 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n2208# VSUBS 0.36106f **FLOATING
+C1088 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n2208# VSUBS 0.41359f **FLOATING
+C1089 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_116# VSUBS 0.99972f **FLOATING
+C1090 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_116# VSUBS 0.99972f **FLOATING
+C1091 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_24# VSUBS 0.41359f **FLOATING
+C1092 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_24# VSUBS 0.36106f **FLOATING
+C1093 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_24# VSUBS 0.36106f **FLOATING
+C1094 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_24# VSUBS 0.41359f **FLOATING
+C1095 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_2348# VSUBS 1.01566f **FLOATING
+C1096 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_2348# VSUBS 1.01566f **FLOATING
+C1097 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_2256# VSUBS 0.7066f **FLOATING
+C1098 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_2256# VSUBS 0.65407f **FLOATING
+C1099 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_2256# VSUBS 0.65407f **FLOATING
+C1100 pga_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_2256# VSUBS 0.7066f **FLOATING
+C1101 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n16440# VSUBS 2.3993f **FLOATING
+C1102 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n16440# VSUBS 2.3422f **FLOATING
+C1103 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n16440# VSUBS 2.34415f **FLOATING
+C1104 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n16440# VSUBS 2.40167f **FLOATING
+C1105 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_556_n8116# VSUBS 4.72133f **FLOATING
+C1106 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_n8116# VSUBS 1.30581f **FLOATING
+C1107 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_n8116# VSUBS 1.30578f **FLOATING
+C1108 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_n8116# VSUBS 1.30581f **FLOATING
+C1109 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n644_n8116# VSUBS 4.72133f **FLOATING
+C1110 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_n8208# VSUBS 0.31954f **FLOATING
+C1111 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_n8208# VSUBS 0.26083f **FLOATING
+C1112 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_n8208# VSUBS 0.26083f **FLOATING
+C1113 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_n8208# VSUBS 0.31954f **FLOATING
+C1114 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_556_116# VSUBS 4.72381f **FLOATING
+C1115 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_252_116# VSUBS 1.30923f **FLOATING
+C1116 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n52_116# VSUBS 1.3092f **FLOATING
+C1117 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n356_116# VSUBS 1.30923f **FLOATING
+C1118 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n644_116# VSUBS 4.72381f **FLOATING
+C1119 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_24# VSUBS 0.31982f **FLOATING
+C1120 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_24# VSUBS 0.26111f **FLOATING
+C1121 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_24# VSUBS 0.26111f **FLOATING
+C1122 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_24# VSUBS 0.31982f **FLOATING
+C1123 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_356_8256# VSUBS 2.53881f **FLOATING
+C1124 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_52_8256# VSUBS 2.48416f **FLOATING
+C1125 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n252_8256# VSUBS 2.48416f **FLOATING
+C1126 pga_final_0/opamp_2stage_final_0/m6_pmos_0/a_n556_8256# VSUBS 2.53881f **FLOATING
+C1127 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_n8348# VSUBS 2.01144f **FLOATING
+C1128 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_n8348# VSUBS 2.01144f **FLOATING
+C1129 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n8440# VSUBS 0.76958f **FLOATING
+C1130 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n8440# VSUBS 0.71706f **FLOATING
+C1131 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n8440# VSUBS 0.71706f **FLOATING
+C1132 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n8440# VSUBS 0.76958f **FLOATING
+C1133 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_n4116# VSUBS 1.99441f **FLOATING
+C1134 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_n4116# VSUBS 1.99441f **FLOATING
+C1135 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n4208# VSUBS 0.41359f **FLOATING
+C1136 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n4208# VSUBS 0.36106f **FLOATING
+C1137 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n4208# VSUBS 0.36106f **FLOATING
+C1138 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n4208# VSUBS 0.41359f **FLOATING
+C1139 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_116# VSUBS 1.99441f **FLOATING
+C1140 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_116# VSUBS 1.99441f **FLOATING
+C1141 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_24# VSUBS 0.41359f **FLOATING
+C1142 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_24# VSUBS 0.36106f **FLOATING
+C1143 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_24# VSUBS 0.36106f **FLOATING
+C1144 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_24# VSUBS 0.41359f **FLOATING
+C1145 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_4348# VSUBS 2.01395f **FLOATING
+C1146 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_4348# VSUBS 2.01395f **FLOATING
+C1147 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_4256# VSUBS 0.74779f **FLOATING
+C1148 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_4256# VSUBS 0.67207f **FLOATING
+C1149 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_4256# VSUBS 0.67207f **FLOATING
+C1150 pga_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_4256# VSUBS 0.74779f **FLOATING
+C1151 pga_final_0/r_fb_0/a_n200_n8102# VSUBS 0.57842f **FLOATING
+C1152 pga_final_0/r_fb_0/a_n200_8000# VSUBS 0.81024f **FLOATING
+C1153 pga_final_0/r_in_0/a_n200_n902# VSUBS 0.52654f **FLOATING
+C1154 pga_final_0/r_in_0/a_n200_800# VSUBS 0.5277f **FLOATING
+C1155 bias_final_0/m2_n100_6000# VSUBS 7.10921f
+C1156 bias_final_0/bias_nmos_1/a_452_n1716# VSUBS 0.81673f **FLOATING
+C1157 bias_final_0/bias_nmos_1/a_n540_n1716# VSUBS 0.81673f **FLOATING
+C1158 bias_final_0/bias_nmos_1/a_52_n1808# VSUBS 0.70804f **FLOATING
+C1159 bias_final_0/bias_nmos_1/a_n452_n1808# VSUBS 0.70804f **FLOATING
+C1160 bias_final_0/bias_nmos_1/a_452_116# VSUBS 0.81673f **FLOATING
+C1161 bias_final_0/bias_nmos_1/a_n540_116# VSUBS 0.81673f **FLOATING
+C1162 bias_final_0/bias_nmos_1/a_52_24# VSUBS 0.70804f **FLOATING
+C1163 bias_final_0/bias_nmos_1/a_n452_24# VSUBS 0.70804f **FLOATING
+C1164 bias_final_0/bias_nmos_0/a_452_n1716# VSUBS 0.81673f **FLOATING
+C1165 bias_final_0/bias_nmos_0/a_n540_n1716# VSUBS 0.81673f **FLOATING
+C1166 bias_final_0/bias_nmos_0/a_52_n1808# VSUBS 0.70804f **FLOATING
+C1167 bias_final_0/bias_nmos_0/a_n452_n1808# VSUBS 0.70804f **FLOATING
+C1168 bias_final_0/bias_nmos_0/a_452_116# VSUBS 0.81673f **FLOATING
+C1169 bias_final_0/bias_nmos_0/a_n540_116# VSUBS 0.81673f **FLOATING
+C1170 bias_final_0/bias_nmos_0/a_52_24# VSUBS 0.70804f **FLOATING
+C1171 bias_final_0/bias_nmos_0/a_n452_24# VSUBS 0.70804f **FLOATING
+C1172 sh_final_0/m2_30000_19850# VSUBS 9.00345f **FLOATING
+C1173 sh_final_0/sw_nmos_1/a_100_n400# VSUBS 0.43367f **FLOATING
+C1174 sh_final_0/sw_nmos_1/a_n188_n400# VSUBS 0.43367f **FLOATING
+C1175 sh_final_0/sw_nmos_1/a_n100_n492# VSUBS 0.59394f **FLOATING
+C1176 sh_final_0/sw_nmos_0/a_100_n400# VSUBS 0.43367f **FLOATING
+C1177 sh_final_0/sw_nmos_0/a_n188_n400# VSUBS 0.43367f **FLOATING
+C1178 sh_final_0/sw_nmos_0/a_n100_n492# VSUBS 0.59394f **FLOATING
+C1179 sh_final_0/opamp_2stage_final_0/m2_7152_15850# VSUBS 0.97318f
+C1180 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_n8348# VSUBS 2.01144f **FLOATING
+C1181 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_n8348# VSUBS 2.01144f **FLOATING
+C1182 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n8440# VSUBS 0.76958f **FLOATING
+C1183 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n8440# VSUBS 0.71706f **FLOATING
+C1184 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n8440# VSUBS 0.71706f **FLOATING
+C1185 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n8440# VSUBS 0.76958f **FLOATING
+C1186 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_n4116# VSUBS 1.99441f **FLOATING
+C1187 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_n4116# VSUBS 1.99441f **FLOATING
+C1188 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_n4208# VSUBS 0.41359f **FLOATING
+C1189 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_n4208# VSUBS 0.36106f **FLOATING
+C1190 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_n4208# VSUBS 0.36106f **FLOATING
+C1191 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_n4208# VSUBS 0.41359f **FLOATING
+C1192 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_116# VSUBS 1.99441f **FLOATING
+C1193 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_116# VSUBS 1.99441f **FLOATING
+C1194 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_24# VSUBS 0.41359f **FLOATING
+C1195 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_24# VSUBS 0.36106f **FLOATING
+C1196 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_24# VSUBS 0.36106f **FLOATING
+C1197 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_24# VSUBS 0.41359f **FLOATING
+C1198 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_956_4348# VSUBS 2.01287f **FLOATING
+C1199 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n1044_4348# VSUBS 2.01035f **FLOATING
+C1200 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_556_4256# VSUBS 0.73349f **FLOATING
+C1201 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_52_4256# VSUBS 0.6573f **FLOATING
+C1202 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n452_4256# VSUBS 0.65455f **FLOATING
+C1203 sh_final_0/opamp_2stage_final_0/m7_nmos_0/a_n956_4256# VSUBS 0.70661f **FLOATING
+C1204 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_n8348# VSUBS 2.01144f **FLOATING
+C1205 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_n8348# VSUBS 2.01144f **FLOATING
+C1206 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n8440# VSUBS 0.76958f **FLOATING
+C1207 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n8440# VSUBS 0.71706f **FLOATING
+C1208 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n8440# VSUBS 0.71706f **FLOATING
+C1209 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n8440# VSUBS 0.76958f **FLOATING
+C1210 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_n4116# VSUBS 1.99441f **FLOATING
+C1211 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_n4116# VSUBS 1.99441f **FLOATING
+C1212 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_n4208# VSUBS 0.41359f **FLOATING
+C1213 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_n4208# VSUBS 0.36106f **FLOATING
+C1214 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_n4208# VSUBS 0.36106f **FLOATING
+C1215 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_n4208# VSUBS 0.41359f **FLOATING
+C1216 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_116# VSUBS 1.99441f **FLOATING
+C1217 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_116# VSUBS 1.99441f **FLOATING
+C1218 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_24# VSUBS 0.41359f **FLOATING
+C1219 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_24# VSUBS 0.36106f **FLOATING
+C1220 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_24# VSUBS 0.36106f **FLOATING
+C1221 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_24# VSUBS 0.41359f **FLOATING
+C1222 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_956_4348# VSUBS 2.01395f **FLOATING
+C1223 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n1044_4348# VSUBS 2.01395f **FLOATING
+C1224 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_556_4256# VSUBS 0.74735f **FLOATING
+C1225 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_52_4256# VSUBS 0.67163f **FLOATING
+C1226 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n452_4256# VSUBS 0.67163f **FLOATING
+C1227 sh_final_0/opamp_2stage_final_0/m1_nmos_0/a_n956_4256# VSUBS 0.74735f **FLOATING
+C1228 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_n4348# VSUBS 1.01566f **FLOATING
+C1229 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_n4348# VSUBS 1.01566f **FLOATING
+C1230 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n4440# VSUBS 0.7066f **FLOATING
+C1231 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n4440# VSUBS 0.65407f **FLOATING
+C1232 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n4440# VSUBS 0.65407f **FLOATING
+C1233 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n4440# VSUBS 0.7066f **FLOATING
+C1234 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_n2116# VSUBS 0.99972f **FLOATING
+C1235 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_n2116# VSUBS 0.99972f **FLOATING
+C1236 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_n2208# VSUBS 0.41359f **FLOATING
+C1237 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_n2208# VSUBS 0.36106f **FLOATING
+C1238 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_n2208# VSUBS 0.36106f **FLOATING
+C1239 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_n2208# VSUBS 0.41359f **FLOATING
+C1240 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_116# VSUBS 0.99972f **FLOATING
+C1241 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_116# VSUBS 0.99972f **FLOATING
+C1242 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_24# VSUBS 0.41359f **FLOATING
+C1243 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_24# VSUBS 0.36106f **FLOATING
+C1244 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_24# VSUBS 0.36106f **FLOATING
+C1245 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_24# VSUBS 0.41359f **FLOATING
+C1246 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_956_2348# VSUBS 1.01566f **FLOATING
+C1247 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n1044_2348# VSUBS 1.01566f **FLOATING
+C1248 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_556_2256# VSUBS 0.7066f **FLOATING
+C1249 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_52_2256# VSUBS 0.65407f **FLOATING
+C1250 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n452_2256# VSUBS 0.65407f **FLOATING
+C1251 sh_final_0/opamp_2stage_final_0/m5_nmos_0/a_n956_2256# VSUBS 0.7066f **FLOATING
+C1252 sh_final_0/opamp_2stage_final_0/w_n2152_15100# VSUBS 1.20282p **FLOATING
+C1253 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_n8348# VSUBS 2.01144f **FLOATING
+C1254 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_n8348# VSUBS 2.01144f **FLOATING
+C1255 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n8440# VSUBS 0.76958f **FLOATING
+C1256 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n8440# VSUBS 0.71706f **FLOATING
+C1257 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n8440# VSUBS 0.71706f **FLOATING
+C1258 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n8440# VSUBS 0.76958f **FLOATING
+C1259 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_n4116# VSUBS 1.99441f **FLOATING
+C1260 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_n4116# VSUBS 1.99441f **FLOATING
+C1261 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_n4208# VSUBS 0.41359f **FLOATING
+C1262 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_n4208# VSUBS 0.36106f **FLOATING
+C1263 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_n4208# VSUBS 0.36106f **FLOATING
+C1264 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_n4208# VSUBS 0.41359f **FLOATING
+C1265 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_116# VSUBS 1.99441f **FLOATING
+C1266 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_116# VSUBS 1.99441f **FLOATING
+C1267 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_24# VSUBS 0.41359f **FLOATING
+C1268 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_24# VSUBS 0.36106f **FLOATING
+C1269 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_24# VSUBS 0.36106f **FLOATING
+C1270 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_24# VSUBS 0.41359f **FLOATING
+C1271 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_956_4348# VSUBS 2.01395f **FLOATING
+C1272 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n1044_4348# VSUBS 2.01395f **FLOATING
+C1273 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_556_4256# VSUBS 0.74735f **FLOATING
+C1274 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_52_4256# VSUBS 0.67163f **FLOATING
+C1275 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n452_4256# VSUBS 0.67163f **FLOATING
+C1276 sh_final_0/opamp_2stage_final_0/m2_nmos_0/a_n956_4256# VSUBS 0.74735f **FLOATING
+C1277 sh_final_0/c_samp_0/m4_n3120_n3000# VSUBS 11.45556f **FLOATING
+C1278 sh_final_0/c_samp_0/m4_n3240_n3120# VSUBS 5.63729f **FLOATING
