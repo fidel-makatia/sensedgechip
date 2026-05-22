@@ -62,7 +62,7 @@ X14 a_452_n4348# a_52_n4440# a_n52_n4348# a_n1188_n4572# nfet_05v0 ad=2.6p pd=10
 X15 a_956_n4348# a_556_n4440# a_452_n4348# a_n1188_n4572# nfet_05v0 ad=4.4p pd=20.88u as=2.6p ps=10.52u w=10u l=2u
 .ends
 
-.subckt m3_pmos w_n1220_n4604#
+.subckt m3_pmos
 X0 a_n556_116# a_n956_24# a_n1044_116# w_n1220_n4604# pfet_05v0 ad=2.6p pd=10.52u as=4.4p ps=20.88u w=10u l=2u
 X1 a_n52_2348# a_n452_2256# a_n556_2348# w_n1220_n4604# pfet_05v0 ad=2.6p pd=10.52u as=2.6p ps=10.52u w=10u l=2u
 X2 a_956_116# a_556_24# a_452_116# w_n1220_n4604# pfet_05v0 ad=4.4p pd=20.88u as=2.6p ps=10.52u w=10u l=2u
@@ -81,7 +81,7 @@ X14 a_452_n4348# a_52_n4440# a_n52_n4348# w_n1220_n4604# pfet_05v0 ad=2.6p pd=10
 X15 a_956_n4348# a_556_n4440# a_452_n4348# w_n1220_n4604# pfet_05v0 ad=4.4p pd=20.88u as=2.6p ps=10.52u w=10u l=2u
 .ends
 
-.subckt m4_pmos w_n1220_n4604#
+.subckt m4_pmos
 X0 a_n556_116# a_n956_24# a_n1044_116# w_n1220_n4604# pfet_05v0 ad=2.6p pd=10.52u as=4.4p ps=20.88u w=10u l=2u
 X1 a_n52_2348# a_n452_2256# a_n556_2348# w_n1220_n4604# pfet_05v0 ad=2.6p pd=10.52u as=2.6p ps=10.52u w=10u l=2u
 X2 a_956_116# a_556_24# a_452_116# w_n1220_n4604# pfet_05v0 ad=4.4p pd=20.88u as=2.6p ps=10.52u w=10u l=2u
@@ -138,16 +138,16 @@ X14 a_n556_4348# a_n956_4256# a_n1044_4348# a_n1188_n8572# nfet_05v0 ad=5.2p pd=
 X15 a_n52_116# a_n452_24# a_n556_116# a_n1188_n8572# nfet_05v0 ad=5.2p pd=20.52u as=5.2p ps=20.52u w=20u l=2u
 .ends
 
-.subckt opamp_2stage_final w_n2152_15100# m6_pmos_0/VSUBS
-Xm2_nmos_0 m6_pmos_0/VSUBS m2_nmos
-Xm6_pmos_0 w_n2152_15100# w_n2152_15100# w_n2152_15100# w_n2152_15100# w_n2152_15100#
-+ w_n2152_15100# w_n2152_15100# w_n2152_15100# w_n2152_15100# w_n2152_15100# w_n2152_15100#
-+ m6_pmos
-Xm5_nmos_0 m6_pmos_0/VSUBS m5_nmos
-Xm3_pmos_0 w_n2152_15100# m3_pmos
-Xm4_pmos_0 w_n2152_15100# m4_pmos
-Xm1_nmos_0 m6_pmos_0/VSUBS m1_nmos
-Xm7_nmos_0 m6_pmos_0/VSUBS m7_nmos
+.subckt opamp_2stage_final m1_n2152_32500# VSUBS
+Xm2_nmos_0 VSUBS m2_nmos
+Xm6_pmos_0 m1_n2152_32500# m1_n2152_32500# m1_n2152_32500# m1_n2152_32500# m1_n2152_32500#
++ m1_n2152_32500# m1_n2152_32500# m1_n2152_32500# m1_n2152_32500# m1_n2152_32500#
++ m1_n2152_32500# m6_pmos
+Xm5_nmos_0 VSUBS m5_nmos
+Xm3_pmos_0 m3_pmos
+Xm4_pmos_0 m4_pmos
+Xm1_nmos_0 VSUBS m1_nmos
+Xm7_nmos_0 VSUBS m7_nmos
 .ends
 
 .subckt sw_nmos a_n332_n624#
@@ -156,7 +156,7 @@ X0 a_100_n400# a_n100_n492# a_n188_n400# a_n332_n624# nfet_05v0 ad=1.76p pd=8.88
 
 .subckt sh_final VSUBS
 Xc_samp_0 c_samp
-Xopamp_2stage_final_0 opamp_2stage_final_0/w_n2152_15100# VSUBS opamp_2stage_final
+Xopamp_2stage_final_0 opamp_2stage_final_0/m1_n2152_32500# VSUBS opamp_2stage_final
 Xsw_nmos_0 VSUBS sw_nmos
 Xsw_nmos_1 VSUBS sw_nmos
 .ends

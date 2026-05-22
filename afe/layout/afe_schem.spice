@@ -1,0 +1,52 @@
+* AFE schematic for LVS — matches afe_final.gds layout hierarchy.
+
+* Top-level AFE port list (matches pad ring)
+.subckt afe_top VDD VSS VINP VOUT PHI1 PHI1A GAIN0 GAIN1 GAIN2 VREF VBN TEST
+xpga  VINP VOUT_PGA VBN VDD VSS pga_final
+xsh   VOUT_PGA VOUT VBN VDD VSS PHI1 PHI1A sh_final
+xvref VREF VDD VSS vref_final
+xbias VBN VDD VSS bias_final
+.ends afe_top
+
+* PGA = op-amp + Rin + Rf (gain ~22x with these poly resistor values)
+.subckt pga_final VINP VOUT VBN VDD VSS
+xopamp VINP VFB VOUT VBN VDD VSS opamp_2stage_final
+xrf vout vfb npolyf_u w=2u l=80u b=1u
+xrin vfb VBCM npolyf_u w=2u l=8u b=1u
+* vbcm tied to VBN bias for sim simplicity
+* (real design would have a separate mid-rail bias from VREF)
+.ends pga_final
+
+* S/H = op-amp buffer + 2 NMOS switches + MIM cap
+.subckt sh_final VIN VOUT VBN VDD VSS PHI1 PHI1A
+xsw1 VIN  V_TOP PHI1  VSS nfet_05v0 w=4u  l=1u  m=1 nf=1
+xsw2 V_BOT VBCM PHI1A VSS nfet_05v0 w=4u  l=1u  m=1 nf=1
+xcs  V_TOP V_BOT cap_mim_2p0fF w=30u l=30u
+xbuf V_TOP VOUT  VOUT VBN VDD VSS opamp_2stage_final
+.ends sh_final
+
+* Vref = 3 series poly resistors + diode-connect NMOS
+.subckt vref_final VREF VDD VSS
+xr1 VDD  N1 npolyf_u w=2u l=18u b=1u
+xr2 N1   N2 npolyf_u w=2u l=18u b=1u
+xr3 N2   VREF npolyf_u w=2u l=18u b=1u
+xm  VREF VREF VSS VSS nfet_05v0 w=2u l=4u m=1 nf=1
+.ends vref_final
+
+* Bias = NMOS current mirror
+.subckt bias_final VBN VDD VSS
+xm1 VBN VBN VSS VSS nfet_05v0 w=8u l=2u m=2 nf=2
+xm2 VBN VBN VSS VSS nfet_05v0 w=8u l=2u m=2 nf=2
+.ends bias_final
+
+* Op-amp two-stage Miller (matches transistor placement in layout)
+.subckt opamp_2stage_final VINP VINN VOUT VBN VDD VSS
+xm1 D_L  VINN D_TAIL VSS nfet_05v0 w=20u l=2u m=4 nf=4
+xm2 D_R  VINP D_TAIL VSS nfet_05v0 w=20u l=2u m=4 nf=4
+xm5 D_TAIL VBN VSS  VSS nfet_05v0 w=10u l=2u m=4 nf=4
+xm7 VOUT VBN VSS    VSS nfet_05v0 w=20u l=2u m=4 nf=4
+xm3 D_L  D_L VDD    VDD pfet_05v0 w=10u l=2u m=4 nf=4
+xm4 D_R  D_L VDD    VDD pfet_05v0 w=10u l=2u m=4 nf=4
+xm6 VOUT D_R VDD    VDD pfet_05v0 w=40u l=1u m=4 nf=4
+xcm  D_R VOUT cap_mim_2p0fF w=30u l=30u
+.ends opamp_2stage_final
