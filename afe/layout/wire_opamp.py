@@ -101,11 +101,13 @@ def lbl(text, x, y, layer=L_TEXT):
 
 
 def via_stack(cell, x, y, size=1.2):
-    """Place a single via1 + metal1 + metal2 stack at (x, y)."""
+    """Place a single via1 + metal1 + metal2 stack at (x, y).
+    Via1 dimension fixed at GF180 rule (0.26 x 0.26 um)."""
+    VIA_W = 0.26
     cell.add(rect(x - size / 2, y - size / 2, x + size / 2, y + size / 2,
                   L_METAL1))
-    cell.add(rect(x - size / 2 + 0.3, y - size / 2 + 0.3,
-                  x + size / 2 - 0.3, y + size / 2 - 0.3, L_VIA12))
+    cell.add(rect(x - VIA_W / 2, y - VIA_W / 2,
+                  x + VIA_W / 2, y + VIA_W / 2, L_VIA12))
     cell.add(rect(x - size / 2, y - size / 2, x + size / 2, y + size / 2,
                   L_METAL2))
 

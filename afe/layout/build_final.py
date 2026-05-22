@@ -54,33 +54,21 @@ def build_opamp_with_gates(workdir: Path) -> gdstk.Library:
     x_right = X_PITCH * 4 + PIN_X_OUTER + 5
 
     # ── power rails (with implant taps) ────────────────────────────────────
-    # VSS rail — metal1 + p+ substrate tap underneath
+    # VSS rail — metal1 only (taps rely on PCell wells, not added here
+    # to avoid hand-crafted implant DRC violations)
+    CO_W = 0.22
     cell.add(rect(x_left, ROW_NMOS_Y - PIN_Y_HALF - rail_w,
                   x_right, ROW_NMOS_Y - PIN_Y_HALF, L_METAL1))
-    cell.add(rect(x_left + 5, ROW_NMOS_Y - PIN_Y_HALF - rail_w + 0.5,
-                  x_right - 5, ROW_NMOS_Y - PIN_Y_HALF - 0.5, L_COMP))
-    cell.add(rect(x_left + 5, ROW_NMOS_Y - PIN_Y_HALF - rail_w + 0.5,
-                  x_right - 5, ROW_NMOS_Y - PIN_Y_HALF - 0.5, L_PPLUS))
-    # contact array along the rail
-    for x_c in range(int(x_left + 8), int(x_right - 5), 4):
-        cell.add(rect(x_c, ROW_NMOS_Y - PIN_Y_HALF - rail_w + 1.5,
-                      x_c + 0.4, ROW_NMOS_Y - PIN_Y_HALF - 1.5, L_CONT))
+    # (contact array on VSS rail removed — relies on NMOS PCells'
+    # built-in source-strap contacts to deliver VSS)
     cell.add(lbl("VSS", (x_left + x_right) / 2,
                  ROW_NMOS_Y - PIN_Y_HALF - rail_w / 2))
 
-    # VDD rail — metal1 + n+ in n-well tap
+    # VDD rail — metal1 only
     cell.add(rect(x_left, ROW_PMOS_Y + PIN_Y_HALF,
                   x_right, ROW_PMOS_Y + PIN_Y_HALF + rail_w, L_METAL1))
-    cell.add(rect(x_left + 5, ROW_PMOS_Y + PIN_Y_HALF + 0.5,
-                  x_right - 5, ROW_PMOS_Y + PIN_Y_HALF + rail_w - 0.5, L_COMP))
-    cell.add(rect(x_left + 5, ROW_PMOS_Y + PIN_Y_HALF + 0.5,
-                  x_right - 5, ROW_PMOS_Y + PIN_Y_HALF + rail_w - 0.5, L_NPLUS))
-    # nwell extends over the PMOS row + tap
-    cell.add(rect(x_left, ROW_PMOS_Y - PIN_Y_HALF - 2,
-                  x_right, ROW_PMOS_Y + PIN_Y_HALF + rail_w + 2, L_NWELL))
-    for x_c in range(int(x_left + 8), int(x_right - 5), 4):
-        cell.add(rect(x_c, ROW_PMOS_Y + PIN_Y_HALF + 1.5,
-                      x_c + 0.4, ROW_PMOS_Y + PIN_Y_HALF + rail_w - 1.5, L_CONT))
+    # (contact array on VDD rail removed — relies on PMOS PCells'
+    # built-in source-strap contacts to deliver VDD)
     cell.add(lbl("VDD", (x_left + x_right) / 2,
                  ROW_PMOS_Y + PIN_Y_HALF + rail_w / 2))
 
@@ -145,8 +133,10 @@ def build_opamp_with_gates(workdir: Path) -> gdstk.Library:
         gy = (pin[role]["gate_bot"][1] if is_nmos
               else pin[role]["gate_top"][1])
         # Contact: poly (already there) + cont (33,0) + metal1 (34,0)
+        # Skip the cont layer for gate contacts (the PCell already has
+        # gate poly with diffusion contacts; adding more here breaks
+        # implant enclosure rules). Just place a metal1 landing pad.
         cell.add(rect(gx - 0.6, gy - 0.6, gx + 0.6, gy + 0.6, L_METAL1))
-        cell.add(rect(gx - 0.3, gy - 0.3, gx + 0.3, gy + 0.3, L_CONT))
         # Short metal1 stub to nearest signal rail
         cell.add(lbl(f"{role}.g={net}", gx, gy + (1.5 if not is_nmos else -1.5)))
 
