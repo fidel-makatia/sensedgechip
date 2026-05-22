@@ -100,9 +100,9 @@ def lbl(text, x, y, layer=L_TEXT):
     return gdstk.Label(text=text, origin=(x, y), layer=layer[0], texttype=layer[1])
 
 
-def via_stack(cell, x, y, size=1.2):
+def via_stack(cell, x, y, size=0.8):
     """Place a single via1 + metal1 + metal2 stack at (x, y).
-    Via1 dimension fixed at GF180 rule (0.26 x 0.26 um)."""
+    Via1 0.26 x 0.26 um, metal enclosure 0.27 um per side -> 0.8 um total."""
     VIA_W = 0.26
     cell.add(rect(x - size / 2, y - size / 2, x + size / 2, y + size / 2,
                   L_METAL1))

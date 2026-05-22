@@ -49,7 +49,7 @@ def build_opamp_with_gates(workdir: Path) -> gdstk.Library:
             "x_center":  x, "y_center": y,
         }
 
-    rail_w = 6.0
+    rail_w = 3.0     # narrower to stay under MSLOT.1 threshold
     x_left  = -PIN_X_OUTER - 5
     x_right = X_PITCH * 4 + PIN_X_OUTER + 5
 
@@ -132,11 +132,8 @@ def build_opamp_with_gates(workdir: Path) -> gdstk.Library:
         gx = pin[role]["x_center"]
         gy = (pin[role]["gate_bot"][1] if is_nmos
               else pin[role]["gate_top"][1])
-        # Contact: poly (already there) + cont (33,0) + metal1 (34,0)
-        # Skip the cont layer for gate contacts (the PCell already has
-        # gate poly with diffusion contacts; adding more here breaks
-        # implant enclosure rules). Just place a metal1 landing pad.
-        cell.add(rect(gx - 0.6, gy - 0.6, gx + 0.6, gy + 0.6, L_METAL1))
+        # Metal1 landing pad — 0.4x0.4 um to maintain 0.3 um spacing from neighbors
+        cell.add(rect(gx - 0.2, gy - 0.2, gx + 0.2, gy + 0.2, L_METAL1))
         # Short metal1 stub to nearest signal rail
         cell.add(lbl(f"{role}.g={net}", gx, gy + (1.5 if not is_nmos else -1.5)))
 
